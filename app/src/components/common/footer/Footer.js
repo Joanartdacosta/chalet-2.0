@@ -1,9 +1,10 @@
 import CurrentDate from "./CurrentDate";
+import FooterInfo from "./FooterInfo";
 
 function Footer() {
   return (
-    <div className=" background-light-brown text-center">
-      <Social />
+    <div className="background-light-brown text-center">
+      <FooterInfo />
       <CurrentDate />
     </div>
   );
