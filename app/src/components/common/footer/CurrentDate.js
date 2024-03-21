@@ -3,11 +3,13 @@ export default function CurrentDate() {
 
   return (
     <div>
-      <p className="text-xs italic pt-2"> CHALET - Mariana Batista Ramadas</p>
-
-      <p className="pt-2 pb-2">
-        © {currentYear} website developed by Joana Costa
-      </p>
+      <hr />
+      <div className="p-6 text-custom-darkBrown">
+        <p className="text-xs ">© CHALET - Mariana Batista Ramadas</p>
+        <p className="text-xs pt-2 ">
+          {currentYear} website developed by Joana Costa
+        </p>
+      </div>
     </div>
   );
 }
