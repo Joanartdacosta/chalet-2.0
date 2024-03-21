@@ -8,6 +8,7 @@
   --background-end-rgb: 255, 255, 255;
   --light-green: #cdcfc4;
   --light-brown: #e9dccf;
+  --light-background: #efe4d9;
   --medium-brown: #b7997b;
   --dark-brown: #856343;
   --grey: rgba(98, 81, 64, 0.2);
@@ -37,8 +38,8 @@
 .background-light-brown {
   background-color: var(--light-brown);
 }
-.background-green {
-  background: var(--light-green);
+.background-light {
+  background: var(--light-background);
 }
 .background-brown {
   background: var(--light-brown);
