@@ -1,4 +1,4 @@
-export default function Mission() {
+export default function Quote() {
   return (
     <div className="flex-wrap m-auto background-light ">
       <div className="max-w-4xl m-auto text-center">
