@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --light-green: #cdcfc4;
+  --light-brown: #e9dccf;
+  --medium-brown: #b7997b;
+  --dark-brown: #856343;
+  --grey: rgba(98, 81, 64, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* backgrounds */
+.background-chalet {
+  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+}
+.background-medium-brown {
+  background-color: var(--medium-brown);
+}
+.background-light-brown {
+  background-color: var(--light-brown);
+}
+.background-green {
+  background: var(--light-green);
+}
+.background-brown {
+  background: var(--light-brown);
+  color: var(--dark-brown);
+}
+
+.background-chalet {
+  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+}
