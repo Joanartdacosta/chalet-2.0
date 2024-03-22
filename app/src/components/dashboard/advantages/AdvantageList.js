@@ -1,10 +1,10 @@
 import CardAdvantage from "./CardAdvantage";
-import CONTACT_ME from "@/components/dashboard/advantages/contact_me";
+import ADVANTAGES from "./advantages";
 
-export default function AdvantagesList(props) {
+export default function AdvantagesList() {
   return (
-    <div className="flex flex-wrap justify-center gap-5 max-w-4xl m-auto">
-      {CONTACT_ME.map((item) => {
+    <div className="display-flex wrap-section justify-center gap-2">
+      {ADVANTAGES.map((item) => {
         return (
           <CardAdvantage
             imgURL={item.imgURL}
