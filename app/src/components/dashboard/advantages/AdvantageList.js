@@ -1,5 +1,5 @@
-import CardAdvantage from "./CardAdvantage";
 import ADVANTAGES from "./advantages";
+import CardAdvantage from "./CardAdvantage";
 
 export default function AdvantagesList() {
   return (
