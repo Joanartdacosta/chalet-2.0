@@ -21,7 +21,7 @@
   - Service details
 - About me components:
   - Photo frame
-  - Text
+  - About text
   - Advantages bullets
 - Services components:
   - Search
