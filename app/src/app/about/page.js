@@ -3,7 +3,7 @@ import Advantages from "@/components/dashboard/advantages/Advantage";
 
 export default function About() {
   return (
-    <div className="margin-auto max-width padding-top-5">
+    <div className="">
       <AboutDesigner />
       <Advantages />
     </div>
