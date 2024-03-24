@@ -6,32 +6,52 @@
 - Form
 - Banner
 - ReviewComponent
-- Create project structure
+- Title
+- Vertical column
+
+- Create project structure:
+
   - Homepage
   - About me
   - Services
   - Projects
     - Project[id]
   - Contacts
+
 - Homepage components:
+
   - Background
   - Intro
-  - Projects slider
-  - Our projects
+  - Our projects gallery
   - Service details
+
 - About me components:
+
   - Photo frame
-  - About text
+  - add photos
+  - AboutText
+  - add texts
+  - Advantage Title
   - Advantages bullets
+
 - Services components:
-  - Search
+
   - ServiceCard
   - Add all services
+  - Search
   - MoreInfo
+  - add all infos
+
 - Projects components:
+
   - ProjectCard
   - add all projects
+
 - ProjectId components:
+
   - Gallery
-  - add all galeries
+  - add all photos
   - ModalPhoto
+
+- Contacts:
+  - add Form
