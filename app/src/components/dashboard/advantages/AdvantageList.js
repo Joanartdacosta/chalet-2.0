@@ -3,7 +3,7 @@ import ADVANTAGES from "./advantages";
 
 export default function AdvantagesList() {
   return (
-    <div className="display-flex wrap-section justify-center gap-2">
+    <div className="flex flex-wrap gap-2 max-w-4xl m-auto">
       {ADVANTAGES.map((item) => {
         return (
           <CardAdvantage
