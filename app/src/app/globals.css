@@ -32,20 +32,3 @@
 .background-chalet {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
 }
-.background-medium-brown {
-  background-color: var(--medium-brown);
-}
-.background-light-brown {
-  background-color: var(--light-brown);
-}
-.background-light {
-  background: var(--light-background);
-}
-.background-brown {
-  background: var(--light-brown);
-  color: var(--dark-brown);
-}
-
-.background-chalet {
-  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
-}
