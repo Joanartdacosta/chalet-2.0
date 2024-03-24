@@ -1,0 +1,37 @@
+# Roadmap
+
+- Navbar
+- Footer
+- Button
+- Form
+- Banner
+- ReviewComponent
+- Create project structure
+  - Homepage
+  - About me
+  - Services
+  - Projects
+    - Project[id]
+  - Contacts
+- Homepage components:
+  - Background
+  - Intro
+  - Projects slider
+  - Our projects
+  - Service details
+- About me components:
+  - Photo frame
+  - Text
+  - Advantages bullets
+- Services components:
+  - Search
+  - ServiceCard
+  - Add all services
+  - MoreInfo
+- Projects components:
+  - ProjectCard
+  - add all projects
+- ProjectId components:
+  - Gallery
+  - add all galeries
+  - ModalPhoto
