@@ -3,11 +3,11 @@
 - Navbar
 - Footer
 - Button
+- Title
+- Vertical column
 - Form
 - Banner
 - ReviewComponent
-- Title
-- Vertical column
 
 - Create project structure:
 
