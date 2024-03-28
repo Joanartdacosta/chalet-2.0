@@ -46,6 +46,15 @@
   color: var(--dark-brown);
 }
 
-.background-chalet {
-  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+.opensans {
+  font-family: var(--font-opensans);
+}
+.poppins {
+  font-family: var(--font-poppins);
+}
+.quicksand {
+  font-family: var(--font-quicksand);
+}
+.ropasans {
+  font-family: var(--font-ropasans);
 }
