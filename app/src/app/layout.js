@@ -1,9 +1,7 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "../components/common/navbar/NavBar";
 import Footer from "@/components/common/footer/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
+import { poppins, openSans, ropaSans, quicksand } from "@/fonts/fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,9 +12,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <NavBar />
-        {children}
-        <Footer />
+        <main
+          className={`${openSans.variable} ${poppins.variable} ${quicksand.variable} ${ropaSans.variable}`}
+        >
+          <NavBar />
+          {children}
+          <Footer />
+        </main>
       </body>
     </html>
   );
