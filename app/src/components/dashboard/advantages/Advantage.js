@@ -1,6 +1,6 @@
 import AdvantagesList from "./AdvantageList";
 
-export default function Advantages() {
+export default function Advantage() {
   return (
     <div className="pl-40">
       <div className="">
