@@ -23,7 +23,10 @@ export default function Carousel(props) {
   }, []);
 
   return (
-    <div className="bg-[#EFE4D9] items-center h-80 grid justify-center">
+    <div className="bg-[#F5EFE8] items-center h-80 grid justify-center">
+      <p className="p-10 text-2xl opensans text-center">
+        TESTEMUNHOS DE CLIENTES
+      </p>
       <ul className="items-center grid grid-cols-1 grid-rows-1 auto-rows-auto gap-y-5  list-none max-w-2xl overflow-hidden carousel__list">
         {props.list.map((review, index) => {
           const { citation, name, quote } = review;
