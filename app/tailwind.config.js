@@ -14,7 +14,8 @@ module.exports = {
       },
       colors: {
         custom: {
-          darkBrown: "#856343", // Substitua esse código de cor pelo seu próprio
+          darkBrown: "#856343",
+          mediumBrown: "#824A3D",
         },
       },
     },
