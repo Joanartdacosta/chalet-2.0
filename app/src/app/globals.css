@@ -62,4 +62,23 @@
 
 .playfair {
   font-family: var(--font-playfair);
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.hidden-backface {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.group:hover .rotate-card {
+  transform: rotateY(180deg);
 }
