@@ -13,7 +13,7 @@ export default function InfoCardService(props) {
         <p className="text-s quicksand">{props.info1}</p>
         <p className="pb-20 text-s quicksand">{props.info2}</p>
       </div>
-      <Button className="w-96" label="VER MAIS" />
+      <Button className="w-96" label={props.text} onClick={props.onClick} />
     </div>
   );
 }
