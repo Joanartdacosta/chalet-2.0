@@ -1,7 +1,5 @@
-import HandHeart from "../../../../public/HandHeart";
 import AdvantagesList from "./AdvantageList";
-
-import CONTACT_ME from "@/components/dashboard/advantages/contact_me";
+import ADVANTAGES_LIST from "./advantage_list";
 
 export default function List() {
   return (
