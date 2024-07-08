@@ -1,16 +1,16 @@
 export default function CardAdvantage(props) {
   return (
     <div
-      className="w-60 align-center text-center p-8 no-underline border border-neutral-200 rounded-3xl
+      className="align-center border border-neutral-200 no-underline p-8 rounded-3xl text-center w-60
     "
     >
       <div className="">
-        <img className="w-10 m-auto" src={props.imgURL} alt={props.alt} />
+        <img className=" m-auto w-10" src={props.imgURL} alt={props.alt} />
       </div>
 
       <div>
         {" "}
-        <p className="text-lg pb-2 text-center mt-6">{props.title}</p>
+        <p className="mt-6 pb-2 text-center text-lg">{props.title}</p>
         <p className="text-xs text-gray-400">{props.description}</p>
       </div>
     </div>
