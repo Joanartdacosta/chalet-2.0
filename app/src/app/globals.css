@@ -9,6 +9,7 @@
   --light-green: #cdcfc4;
   --light-brown: #e9dccf;
   --light-background: #efe4d9;
+  --white: #dbccbd;
   --medium-brown: #b7997b;
   --dark-brown: #856343;
   --grey: rgba(98, 81, 64, 0.2);
@@ -46,8 +47,17 @@
   color: var(--dark-brown);
 }
 
-.background-chalet {
-  background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+.opensans {
+  font-family: var(--font-opensans);
+}
+.poppins {
+  font-family: var(--font-poppins);
+}
+.quicksand {
+  font-family: var(--font-quicksand);
+}
+.ropasans {
+  font-family: var(--font-ropasans);
 }
 
 .perspective-1000 {
