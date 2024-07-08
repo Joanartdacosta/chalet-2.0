@@ -1,13 +1,14 @@
 export default function Button(props) {
   return (
-    <div>
+    <div className="text-center">
       <button
+        className="bg-[#b7997b] dark:bg-[#856343] dark:hover:bg-[#dbccbd] dark:focus:ring-[#b7997b] focus:ring-2 focus:outline-none focus:ring-[#b7997b] font-medium font-semibold hover:bg-[#efe4d9] hover:text-custom-darkBrown inline-flex items-center py-2.5 quicksand text-sm w-full text-[#e9dccf] justify-center"
+        onClick={props.onClick}
         type="button"
-        class="text-[#e9dccf] bg-[#b7997b] hover:bg-[#efe4d9] focus:ring-2 focus:outline-none focus:ring-[#b7997b] hover:text-custom-darkBrown font-medium text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-[#856343] dark:hover:bg-[#dbccbd] dark:focus:ring-[#b7997b]"
       >
         {props.label}
         <svg
-          class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+          className="rtl:rotate-180 w-3.5 h-3.5 ms-2"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -15,9 +16,9 @@ export default function Button(props) {
         >
           <path
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="M1 5h12m0 0L9 1m4 4L9 9"
           />
         </svg>
