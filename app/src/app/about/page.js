@@ -1,13 +1,12 @@
 import AboutDesigner from "@/components/dashboard/about/AboutDesigner";
-import Advantages from "@/components/dashboard/advantages/Advantage";
-import ADVANTAGES_LIST from "@/components/dashboard/advantages/advantage_list";
-import ADVANTAGES from "@/components/dashboard/advantages/advantages";
+import ADVANTAGES from "@/lists/advantages";
+import AdvantagesList from "@/components/dashboard/advantages/AdvantageList";
 
 export default function About() {
   return (
     <div className="margin-auto max-width padding-top-5">
       <AboutDesigner />
-      <Advantages items={ADVANTAGES} />
+      <AdvantagesList items={ADVANTAGES} />
     </div>
   );
 }

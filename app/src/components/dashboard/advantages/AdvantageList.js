@@ -1,5 +1,4 @@
-import ADVANTAGES from "./advantages";
-import CardAdvantage from "./CardAdvantage";
+import CardAdvantage from "./card/CardAdvantage";
 
 export default function AdvantagesList(props) {
   return (

@@ -1,7 +1,6 @@
 import AdvantagesList from "./AdvantageList";
-import ADVANTAGES from "./advantages";
 
-export default function Advantage(props) {
+export default function AdvantageQuoteAndList(props) {
   return (
     <div className="pl-40">
       <div className="">
