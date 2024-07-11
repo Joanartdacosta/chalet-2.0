@@ -1,6 +1,6 @@
 import AdvantagesList from "./AdvantageList";
 
-export default function Advantage() {
+export default function AdvantageQuoteAndList(props) {
   return (
     <div className="pl-40">
       <div className="">
@@ -14,7 +14,7 @@ export default function Advantage() {
           Designer de Interiores?
         </h2>
       </div>
-      <AdvantagesList />
+      <AdvantagesList items={props.items} />
     </div>
   );
 }
