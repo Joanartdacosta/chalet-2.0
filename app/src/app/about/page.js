@@ -4,7 +4,7 @@ import AdvantagesList from "@/components/dashboard/advantages/AdvantageList";
 
 export default function About() {
   return (
-    <div className="margin-auto max-width padding-top-5">
+    <div className="m-auto max-w-5xl justify-center">
       <AboutDesigner />
       <AdvantagesList items={ADVANTAGES} />
     </div>
