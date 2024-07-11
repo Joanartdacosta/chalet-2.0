@@ -1,7 +1,6 @@
+import AdvantageHome from "@/components/dashboard/advantages/AdvantageHome";
 import Background from "@/components/dashboard/home/Background";
-import List from "@/components/dashboard/advantages/List";
 import Quote from "@/components/dashboard/home/Quote";
-
 
 export default function Home() {
   return (
@@ -9,7 +8,7 @@ export default function Home() {
       <div>
         <Background />
         <Quote />
-        <List />
+        <AdvantageHome />
       </div>
     </main>
   );
