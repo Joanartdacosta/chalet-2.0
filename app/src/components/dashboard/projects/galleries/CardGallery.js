@@ -9,17 +9,20 @@ export default function CardGallery(props) {
 
   return (
     <div id={props.id} key={props.id}>
-      <p className="font-light opensans text-2xl text-center">{props.title}</p>
-      <p className="quicksand">{props.typeProject}</p>
-
+      <div className="pb-10">
+        <p className="font-light opensans text-2xl text-center">
+          {props.projectName}
+        </p>
+        <p className="quicksand">{props.projectType}</p>
+      </div>
       <div>
         <div className="masonry">
           {GALLERY.map((photo) => {
             return (
               <div key={photo.id}>
                 <img
-                  className="cursor-pointer"
-                  src={photo.image}
+                  className="cursor-pointer hover-scale media-image-gallery"
+                  src={photo.imgURL}
                   alt={props.alt}
                 />
               </div>

@@ -90,3 +90,8 @@
   grid-template-rows: repeat(auto-fill);
   grid-template-columns: repeat(auto-fill, minmax(14.3rem, 3fr));
 }
+
+.hover-scale:hover {
+  transition-duration: 0.8s;
+  transform: scale(2.5);
+}
