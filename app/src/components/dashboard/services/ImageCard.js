@@ -9,7 +9,7 @@ export default function ImageCard(props) {
         priority={true}
         width={500}
         height={400}
-        className="w-auto h-auto"
+        className="h-auto w-auto"
       />
     </div>
   );
