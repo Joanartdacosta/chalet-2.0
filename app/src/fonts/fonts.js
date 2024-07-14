@@ -1,4 +1,10 @@
-import { Open_Sans, Poppins, Quicksand, Ropa_Sans } from "next/font/google";
+import {
+  Open_Sans,
+  Playfair_Display,
+  Poppins,
+  Quicksand,
+  Ropa_Sans,
+} from "next/font/google";
 
 export const openSans = Open_Sans({
   subsets: ["latin"],
@@ -22,4 +28,10 @@ export const ropaSans = Ropa_Sans({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-ropasans",
+});
+
+export const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: "600",
+  variable: "--font-playfair",
 });
