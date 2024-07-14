@@ -3,7 +3,7 @@ import InfoCardService from "./InfoCardService";
 import { useState } from "react";
 import Modal from "./Modal";
 
-export default function CardsService(props) {
+export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const handleModal = () => {
