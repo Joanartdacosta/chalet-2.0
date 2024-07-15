@@ -2,7 +2,7 @@ import Button from "@/components/common/buttons/Button";
 
 export default function Modal() {
   return (
-    <div className="">
+    <div>
       <p className="quicksand text-xl text-custom-mediumBrown font-semibold">
         MAIS INFORMACOES
       </p>
