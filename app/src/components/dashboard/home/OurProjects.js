@@ -1,5 +1,5 @@
 import MultiCarousel from "@/components/dashboard/home/MultiCarousel";
-import PROJECTS_GALLERY from "@/lists/mezanine";
+import PROJECTS_GALLERY from "@/lists/projects_gallery";
 
 export default function OurProjects() {
   return (
