@@ -3,7 +3,7 @@ import Social from "./Social";
 
 export default function FooterInfo() {
   return (
-    <div className="flex justify-between p-20 ">
+    <div className="flex justify-between p-20">
       <div className="flex flex-start">
         <div className="pr-20">
           <p className="pb-2">CONTACTOS</p>
@@ -20,9 +20,8 @@ export default function FooterInfo() {
           </Link>
         </div>
       </div>
-      <div>
-        <Social />
-      </div>
+
+      <Social />
     </div>
   );
 }
