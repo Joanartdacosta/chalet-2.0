@@ -11,6 +11,7 @@ export default function ImageWithText(props) {
           width={400}
           height={500}
           alt={props.description}
+          priority={false}
         />
         <div className="content-center">
           <p className="pb-10">{props.info1}</p>
