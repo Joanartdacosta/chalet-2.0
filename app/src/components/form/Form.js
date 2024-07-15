@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import SocialMediaList from "../common/footer/SocialMediaList";
 
 function Form() {
   const [color, setColor] = useState("#e9dccf");
@@ -26,8 +27,8 @@ function Form() {
             height={300}
             priority={true}
           />
-          <div className="p-4">
-            <p className="pb-2">
+          <div className="p-4 text-xs">
+            <p className="pb-2 text-xs">
               Para mais informações ou dúvidas, entre em contacto: a partir do
               formulário abaixo; por mensagem privada no Instagram ou envie
               email para
@@ -35,10 +36,13 @@ function Form() {
             <p>
               <span className="font-semibold">Phone: </span>913847348
             </p>
-            <p>
+            <p className="pb-4">
               <span className="font-semibold">Email: </span>
               chalet.designinteriores@gmail.com
             </p>
+            <div>
+              <SocialMediaList />
+            </div>
           </div>
         </div>
       </div>
@@ -77,7 +81,7 @@ function Form() {
               />
             </div>
 
-            <div className="flex flex-column p-4 ">
+            <div className="flex flex-column p-12">
               <textarea
                 className="text-base w-screen"
                 value={message}
