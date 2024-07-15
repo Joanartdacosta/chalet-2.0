@@ -18,7 +18,6 @@ export default function FooterInfo() {
             <p className="hover:underline">Termos e condicoes</p>
             <p className="hover:underline">Politica de Privacidade</p>
           </Link>
-          <p></p>
         </div>
       </div>
       <div>
