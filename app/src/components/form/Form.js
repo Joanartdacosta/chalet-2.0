@@ -1,6 +1,6 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
-import ImageCard from "../dashboard/services/ImageCard";
 
 function Form() {
   const [color, setColor] = useState("#e9dccf");
@@ -16,35 +16,45 @@ function Form() {
   }
 
   return (
-    <div className="quicksand flex">
-      <div>
-        <ImageCard
-          alt={"Chalet"}
-          image={
-            "https://images.unsplash.com/photo-1513161455079-7dc1de15ef3e?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          }
-        />
-        <p>
-          Para mais informações ou dúvidas, entre em contacto: a partir do
-          formulário abaixo; por mensagem privada no Instagram ou envie email
-          para
-        </p>
-        <p>Phone: </p>
-        <p>Email: chalet.designinteriores@gmail.com</p>
+    <div className="quicksand flex justify-center pb-10">
+      <div className="w-1/2 items-center">
+        <div className="items-center">
+          <Image
+            alt="Chalet"
+            src="https://images.unsplash.com/photo-1523865236457-3ae3358a4eaa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width={600}
+            height={100}
+          />
+          <div className="p-4">
+            <p className="pb-2">
+              Para mais informações ou dúvidas, entre em contacto: a partir do
+              formulário abaixo; por mensagem privada no Instagram ou envie
+              email para
+            </p>
+            <p>
+              <span className="font-semibold">Phone: </span>913847348
+            </p>
+            <p>
+              <span className="font-semibold">Email: </span>
+              chalet.designinteriores@gmail.com
+            </p>
+          </div>
+        </div>
       </div>
-      <div>
-        <div className="w-56 p-2">
+
+      <div className="ml-8 w-1/2">
+        <div>
           <p className="text-lg opensans">PECA O SEU ORCAMENTO</p>
           <form
-            className=""
+            className="w-full"
             id="freetour"
             action="https://formcarry.com/s/OlAl-K2DqOh"
             method="POST"
           >
             <input type="hidden" name="contact_number" required />
-            <div className="flex flex-column p-4 w-96">
+            <div className="flex flex-column p-4">
               <input
-                className="text-base"
+                className="text-base w-screen"
                 type="text"
                 value={name}
                 name="name"
@@ -54,9 +64,9 @@ function Form() {
               />
             </div>
 
-            <div className="flex flex-column p-4 w-96">
+            <div className="flex flex-column p-4">
               <input
-                className="text-base"
+                className="text-base w-screen"
                 type="email"
                 value={email}
                 name="email"
@@ -66,9 +76,9 @@ function Form() {
               />
             </div>
 
-            <div className="flex flex-column p-4 w-96">
+            <div className="flex flex-column p-4 ">
               <textarea
-                className="text-base"
+                className="text-base w-screen"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 id="message"
