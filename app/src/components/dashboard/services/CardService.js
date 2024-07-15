@@ -1,7 +1,7 @@
 "use client";
-import InfoCardService from "./InfoCardService";
+import InfoCardService from "@/components/dashboard/services/InfoCardService";
 import { useState } from "react";
-import Modal from "./Modal";
+import Modal from "@/components/dashboard/services/Modal";
 
 export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
