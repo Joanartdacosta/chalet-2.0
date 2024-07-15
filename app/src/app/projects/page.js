@@ -1,4 +1,4 @@
-import CardProject from "@/components/dashboard/projects/Card";
+import CardProject from "@/components/dashboard/projects/CardProject";
 
 export default function Projects() {
   return (
