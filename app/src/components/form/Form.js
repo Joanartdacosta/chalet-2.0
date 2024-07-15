@@ -89,6 +89,12 @@ function Form() {
               />
             </div>
 
+            <div>
+              <p className="quicksand text-xs text-center">
+                Ao clicar em enviar, aceita os nossos termos e condicoes.
+              </p>
+            </div>
+
             <div className="p-4">
               <button
                 className="align-self cursor h-12 no-underline text-base w-full"
