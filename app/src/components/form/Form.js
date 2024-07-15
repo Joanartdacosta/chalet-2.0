@@ -16,14 +16,14 @@ function Form() {
   }
 
   return (
-    <div className="quicksand flex justify-center pb-10">
-      <div className="w-1/2 items-center">
+    <div className="quicksand flex justify-center pb-20 pt-20 items-center">
+      <div className="w-1/2">
         <div className="items-center">
           <Image
             alt="Chalet"
             src="https://images.unsplash.com/photo-1523865236457-3ae3358a4eaa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             width={600}
-            height={100}
+            height={300}
             priority={true}
           />
           <div className="p-4">
@@ -45,7 +45,7 @@ function Form() {
 
       <div className="ml-8 w-1/2">
         <div>
-          <p className="text-lg opensans">PECA O SEU ORCAMENTO</p>
+          <p className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</p>
           <form
             className="w-full"
             id="freetour"
