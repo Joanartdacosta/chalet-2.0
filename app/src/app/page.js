@@ -14,7 +14,6 @@ export default function Home() {
         <OurProjects />
         <Carousel list={REVIEWS} />
         <AdvantageHome />
-        <Carousel list={REVIEWS} />
       </div>
     </main>
   );

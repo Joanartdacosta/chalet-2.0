@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import SocialMediaList from "../common/footer/SocialMediaList";
 
 function Form() {
   const [color, setColor] = useState("#e9dccf");
