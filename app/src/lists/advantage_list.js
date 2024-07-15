@@ -1,4 +1,4 @@
-const CONTACT_ME = [
+const ADVANTAGES_LIST = [
   {
     id: "1",
     alt: "time",
@@ -23,4 +23,4 @@ const CONTACT_ME = [
   },
 ];
 
-export default CONTACT_ME;
+export default ADVANTAGES_LIST;
