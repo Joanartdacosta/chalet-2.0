@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <div className="bg-[#b7997b] flex p-10 justify-between poppins">
-      <div className="">
+      <div>
         <Link className="text-xl text-black no-underline pr-10" href="/about">
           SOBRE MIM
         </Link>
@@ -14,7 +14,7 @@ export default function NavBar() {
           CONTACTOS
         </Link>
       </div>
-      <div className="">
+      <div>
         <Link
           className="text-xl text-black no-underline pr-10"
           href="/services"
