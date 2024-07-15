@@ -1,4 +1,4 @@
-import ProjectsGallery from "@/components/dashboard/projects/projectGallery/ProjectsGallery";
+import ProjectsGallery from "@/components/dashboard/projects/ProjectsGallery";
 
 export default function ProjectDetailPage() {
   return (
