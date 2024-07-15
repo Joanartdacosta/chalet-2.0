@@ -17,7 +17,7 @@ function Form() {
   }
 
   return (
-    <div className="quicksand flex justify-center pb-20 pt-20 items-center">
+    <div className="quicksand flex justify-center pb-20 pt-20">
       <div className="w-1/2">
         <div className="items-center">
           <Image
@@ -40,79 +40,74 @@ function Form() {
               <span className="font-semibold">Email: </span>
               chalet.designinteriores@gmail.com
             </p>
-            <div>
-              <SocialMediaList />
-            </div>
           </div>
         </div>
       </div>
 
       <div className="ml-8 w-1/2">
-        <div>
-          <p className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</p>
-          <form
-            className="w-full"
-            id="freetour"
-            action="https://formcarry.com/s/OlAl-K2DqOh"
-            method="POST"
-          >
-            <input type="hidden" name="contact_number" required />
-            <div className="flex flex-column p-4">
-              <input
-                className="text-base w-screen"
-                type="text"
-                value={name}
-                name="name"
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Nome"
-                required
-              />
-            </div>
+        <p className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</p>
+        <form
+          className="w-full"
+          id="freetour"
+          action={process.env.NEXT_PUBLIC_FORM_ACTION_URL}
+          method="POST"
+        >
+          <input type="hidden" name="contact_number" required />
+          <div className="flex flex-column p-4">
+            <input
+              className="text-base w-screen"
+              type="text"
+              value={name}
+              name="name"
+              onChange={(e) => setName(e.target.value)}
+              placeholder="Nome"
+              required
+            />
+          </div>
 
-            <div className="flex flex-column p-4">
-              <input
-                className="text-base w-screen"
-                type="email"
-                value={email}
-                name="email"
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Email"
-                required
-              />
-            </div>
+          <div className="flex flex-column p-4">
+            <input
+              className="text-base w-screen"
+              type="email"
+              value={email}
+              name="email"
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Email"
+              required
+            />
+          </div>
 
-            <div className="flex flex-column p-12">
-              <textarea
-                className="text-base w-screen"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                id="message"
-                name="message"
-                placeholder="Enter your message..."
-                required
-              />
-            </div>
+          <div className="flex flex-column p-4">
+            <textarea
+              className="text-base w-screen"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              id="message"
+              name="message"
+              placeholder="Enter your message..."
+              required
+            />
+          </div>
 
-            <div>
-              <p className="quicksand text-xs text-center">
-                Ao clicar em enviar, aceita os nossos termos e condicoes.
-              </p>
-            </div>
+          <div>
+            <p className="quicksand text-xs text-center">
+              Ao clicar em enviar, aceita os nossos termos e condicoes.
+            </p>
+          </div>
 
-            <div className="p-4">
-              <button
-                className="align-self cursor h-12 no-underline text-base w-full"
-                onClick={changeStyle}
-                style={{ background: color }}
-                type="submit"
-                id="submit"
-                value="Send"
-              >
-                {label}
-              </button>
-            </div>
-          </form>
-        </div>
+          <div className="p-4">
+            <button
+              className="align-self cursor h-12 no-underline text-base w-full"
+              onClick={changeStyle}
+              style={{ background: color }}
+              type="submit"
+              id="submit"
+              value="Send"
+            >
+              {label}
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   );
