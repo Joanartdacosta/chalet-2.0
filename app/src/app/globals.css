@@ -9,6 +9,7 @@
   --light-green: #cdcfc4;
   --light-brown: #e9dccf;
   --light-background: #efe4d9;
+  --white: #dbccbd;
   --medium-brown: #b7997b;
   --dark-brown: #856343;
   --grey: rgba(98, 81, 64, 0.2);
@@ -28,7 +29,56 @@
   }
 }
 
-/* backgrounds */
 .background-chalet {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
+}
+.background-medium-brown {
+  background-color: var(--medium-brown);
+}
+.background-light-brown {
+  background-color: var(--light-brown);
+}
+.background-light {
+  background: var(--light-background);
+}
+.background-brown {
+  background: var(--light-brown);
+  color: var(--dark-brown);
+}
+
+.opensans {
+  font-family: var(--font-opensans);
+}
+.poppins {
+  font-family: var(--font-poppins);
+}
+.quicksand {
+  font-family: var(--font-quicksand);
+}
+.ropasans {
+  font-family: var(--font-ropasans);
+}
+
+.playfair {
+  font-family: var(--font-playfair);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.hidden-backface {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+.group:hover .rotate-card {
+  transform: rotateY(180deg);
 }

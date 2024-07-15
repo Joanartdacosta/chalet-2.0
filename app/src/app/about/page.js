@@ -1,11 +1,9 @@
 import AboutDesigner from "@/components/dashboard/about/AboutDesigner";
-import Advantages from "@/components/dashboard/advantages/Advantage";
 
 export default function About() {
   return (
-    <div className="">
+    <div className="m-auto max-w-5xl justify-center">
       <AboutDesigner />
-      <Advantages />
     </div>
   );
 }

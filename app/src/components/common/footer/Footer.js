@@ -3,7 +3,7 @@ import FooterInfo from "./FooterInfo";
 
 function Footer() {
   return (
-    <div className="bg-[#E9DCCF] text-center">
+    <div className="bg-[#efe4d9] text-center">
       <FooterInfo />
       <CurrentDate />
     </div>
