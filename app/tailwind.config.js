@@ -17,6 +17,7 @@ module.exports = {
           darkBrown: "#856343",
           mediumBrown: "#A46B53",
           lightBrown: "#e9dccf",
+          titleBrown: "#824A3D",
         },
       },
     },
