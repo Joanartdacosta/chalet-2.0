@@ -4,15 +4,14 @@ import Carousel from "@/components/dashboard/home/Carousel";
 import Quote from "@/components/dashboard/home/Quote";
 import REVIEWS from "@/components/lists/reviews";
 
-
 export default function Home() {
   return (
     <main>
       <div>
         <Background />
         <Quote />
-        <Carousel list={REVIEWS} />
         <AdvantageHome />
+        <Carousel list={REVIEWS} />
       </div>
     </main>
   );
