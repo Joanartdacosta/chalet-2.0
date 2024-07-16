@@ -12,7 +12,7 @@ export default function FooterInfo() {
             chaletinteriordesign@gmail.com
           </p>
         </div>
-        <div className="">
+        <div>
           <p className="pb-2">PRIVACIDADE</p>
           <Link href="" className="quicksand text-sm text-custom-darkBrown ">
             <p className="hover:underline">Termos e condicoes</p>
@@ -21,7 +21,7 @@ export default function FooterInfo() {
           <p></p>
         </div>
       </div>
-      <div className="">
+      <div>
         <Social />
       </div>
     </div>
