@@ -1,4 +1,4 @@
-import CardsService from "./CardService";
+import CardsService from "@/components/dashboard/services/CardService";
 
 export default function ServicesList(props) {
   const NEW_SERVICES = [];

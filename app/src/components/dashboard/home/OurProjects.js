@@ -1,4 +1,4 @@
-import MultiCarousel from "@/components/dashboard/home/MultiCarousel";
+import MultiCarousel from "@/components/common/galleries/MultiCarousel";
 import PROJECTS_GALLERY from "@/lists/projects_gallery";
 
 export default function OurProjects() {

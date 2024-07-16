@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "./carousel.css";
 
 export default function Carousel(props) {
   const [activeSlide, setActiveSlide] = useState(1);

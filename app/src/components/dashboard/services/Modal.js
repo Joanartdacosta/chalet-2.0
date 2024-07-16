@@ -1,6 +1,7 @@
 import Button from "@/components/common/buttons/Button";
-import Number from "./Number";
-import Step from "./Step";
+import Number from "@/components/dashboard/services/Number";
+import Step from "@/components/dashboard/services/Step";
+
 export default function Modal(props) {
   return (
     <div>
