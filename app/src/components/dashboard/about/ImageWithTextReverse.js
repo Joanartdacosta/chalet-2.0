@@ -18,6 +18,7 @@ export default function ImageWithTextReverse(props) {
           width={400}
           height={500}
           alt={props.description}
+          priority={false}
         />
       </div>
     </div>
