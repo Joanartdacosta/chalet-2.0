@@ -14,7 +14,10 @@ export default function FooterInfo() {
         </div>
         <div>
           <p className="pb-2">PRIVACIDADE</p>
-          <Link href="" className="quicksand text-sm text-custom-darkBrown ">
+          <Link
+            href="/terms"
+            className="quicksand text-sm text-custom-darkBrown "
+          >
             <p className="hover:underline">Termos e condicoes</p>
             <p className="hover:underline">Politica de Privacidade</p>
           </Link>
