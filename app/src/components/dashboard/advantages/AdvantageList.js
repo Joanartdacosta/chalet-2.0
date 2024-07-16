@@ -1,12 +1,12 @@
-import CardAdvantage from "./CardAdvantage";
-import CONTACT_ME from "@/components/dashboard/advantages/contact_me";
+import FlipCard from "./card/FlipCard";
 
 export default function AdvantagesList(props) {
   return (
-    <div className="flex flex-wrap justify-center gap-5 max-w-4xl m-auto">
-      {CONTACT_ME.map((item) => {
+    <div className="flex flex-wrap gap-2 justify-center max-w-4xl m-auto">
+      {props.items.map((item) => {
         return (
-          <CardAdvantage
+          <FlipCard
+            key={item.id}
             imgURL={item.imgURL}
             description={item.description}
             title={item.title}

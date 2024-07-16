@@ -1,11 +1,18 @@
+import Banner from "@/components/common/banner/Banner";
 import AboutDesigner from "@/components/dashboard/about/AboutDesigner";
-import Advantages from "@/components/dashboard/advantages/Advantage";
+import ADVANTAGES from "@/lists/advantages";
+import AdvantageQuoteAndList from "@/components/dashboard/advantages/AdvantageQuoteAndList";
 
 export default function About() {
   return (
-    <div className="margin-auto max-width padding-top-5">
-      <AboutDesigner />
-      <Advantages />
+    <div className="justify-center">
+      <div className="max-w-5xl m-auto">
+        <AboutDesigner />
+      </div>
+      <Banner />
+      <div className="max-w-5xl m-auto">
+        <AdvantageQuoteAndList items={ADVANTAGES} />
+      </div>
     </div>
   );
 }
