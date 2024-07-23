@@ -1,6 +1,6 @@
 export default function Quote() {
   return (
-    <div className="flex-wrap m-auto bg-[#F5EFE8]">
+    <div className="flex-wrap m-auto bg-[#F5EFE8] p-10 lg:p-0">
       <div className="max-w-4xl m-auto text-center">
         <h2 className="text-xl text-custom-darkBrown pt-20 pb-10 poppins">
           Cada projeto é o início de uma nova história!
