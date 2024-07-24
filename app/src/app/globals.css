@@ -29,7 +29,6 @@
   }
 }
 
-/* backgrounds */
 .background-chalet {
   background-image: url(https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png);
 }
@@ -82,4 +81,81 @@
 
 .group:hover .rotate-card {
   transform: rotateY(180deg);
+}
+
+.masonry {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-rows: repeat(auto-fill);
+  grid-template-columns: repeat(auto-fill, minmax(14.3rem, 3fr));
+}
+
+.hover-scale:hover {
+  transition-duration: 0.8s;
+  transform: scale(2.5);
+.carousel__item {
+  transition: transform 0.2s;
+}
+.carousel__item.active {
+  transform: translateX(0);
+}
+.carousel__item.left {
+  transform: translateX(-110%);
+}
+.carousel__item.right {
+  transform: translateX(110%);
+}
+
+.carousel__dot.active {
+  background-color: #b7997b;
+}
+
+.multi-carousel-container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.multi-carousel-track {
+  display: flex;
+  transition: transform 0.8s ease;
+}
+
+.multi-carousel-slide {
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+  box-sizing: border-box;
+}
+
+.multi-carousel-slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+
+.multi-carousel-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.multi-carousel-control {
+  cursor: pointer;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+}
+
+.multi-carousel-control:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }

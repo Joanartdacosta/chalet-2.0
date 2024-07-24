@@ -1,10 +1,9 @@
 "use client";
-import InfoCardService from "./InfoCardService";
-import ImageCard from "./ImageCard";
+import InfoCardService from "@/components/dashboard/services/InfoCardService";
 import { useState } from "react";
-import Modal from "./Modal";
+import Modal from "@/components/dashboard/services/Modal";
 
-export default function CardsService() {
+export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const handleModal = () => {
@@ -13,33 +12,43 @@ export default function CardsService() {
   };
   return (
     <div>
-      <div className="pb-20">
+      <div className="p-20">
         <div className="flex pb-10">
-          <div className="w-2/4 content-center">
+          <div className="w-4/6 content-center">
             <InfoCardService
-              type={"PROJETO"}
-              title={"DESIGN DE INTERIORES"}
-              info1={
-                "Projeto para um espaço novo (em fase de construção) ou a remodelar. Inclui:"
-              }
-              info2={
-                "Desenhos tecnicos (layout, planta de tetos, localização de luminárias, mobiliário à medida, entre outros) para visualização do resultado final e Moodboard (conceito & inspiração do Projeto). Projeto em formato ConceptBoard ou Projeto 3D (mais aconselhado)."
-              }
+              type={props.type}
+              projectType={props.projectType}
+              description={props.description}
+              info1={props.detail1}
+              info2={props.detail2}
+              info3={props.detail3}
+              info4={props.detail4}
               onClick={handleModal}
-              text={modalIsOpen ? "Mostrar menos" : "Ver mais"}
+              text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
             />
           </div>
 
-          <div className="1/4 content-center">
-            <ImageCard
+          <div className="w-2/6">
+            <img
               alt={"service"}
-              image={
-                "https://images.unsplash.com/photo-1565038941323-e5ceac0fcde2?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              }
+              src={props.imgURL}
+              className="object-cover h-full"
             />
           </div>
         </div>
-        {modalIsOpen && <Modal onClick={handleModal} />}
+        {modalIsOpen && (
+          <Modal
+            onClick={handleModal}
+            step1Title={props.step1Title}
+            step2Title={props.step2Title}
+            step3Title={props.step3Title}
+            step4Title={props.step4Title}
+            step1={props.step1}
+            step2={props.step2}
+            step3={props.step3}
+            step4={props.step4}
+          />
+        )}
       </div>
     </div>
   );

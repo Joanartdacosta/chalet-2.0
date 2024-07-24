@@ -2,7 +2,7 @@ import HighlightedText from "@/components/dashboard/about/HighlightedText";
 import ImageWithText from "./ImageWithText";
 import ImageWithTextReverse from "./ImageWithTextReverse";
 
-export default function AboutDesigner() {
+export default function AboutText() {
   return (
     <div className="quicksand p-20">
       <div className="mb-20">
@@ -20,7 +20,7 @@ export default function AboutDesigner() {
             "Em 2017, o projeto de remodelação da minha primeira casa,despertou de novo em mim o fascínio pela decoração."
           }
           image={
-            "https://images.unsplash.com/photo-1598387746216-506f6bd47aad?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_0970+(2).JPG"
           }
           description={"designer"}
         />
@@ -41,7 +41,7 @@ export default function AboutDesigner() {
             "A formação foi uma experiência enriquecedora, de muito trabalho e aprendizagem, onde conheci pessoas incríveis que me ajudaram a concretizar este meu sonho!"
           }
           image={
-            "https://images.unsplash.com/photo-1598387746216-506f6bd47aad?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4131.JPG"
           }
           description={"designer"}
         />

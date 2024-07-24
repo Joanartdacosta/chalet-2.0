@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import "./carousel.css";
 
 export default function Carousel(props) {
   const [activeSlide, setActiveSlide] = useState(1);
@@ -23,10 +22,11 @@ export default function Carousel(props) {
   }, []);
 
   return (
-    <div className="bg-[#F5EFE8] items-center h-80 grid justify-center">
-      <p className="p-10 text-2xl opensans text-center">
+    <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-4">
+      <p className="p-6 text-2xl opensans text-center">
         TESTEMUNHOS DE CLIENTES
       </p>
+
       <ul className="items-center grid grid-cols-1 grid-rows-1 auto-rows-auto gap-y-5  list-none max-w-2xl overflow-hidden carousel__list">
         {props.list.map((review, index) => {
           const { citation, name, quote } = review;
@@ -41,11 +41,13 @@ export default function Carousel(props) {
               key={count}
             >
               <blockquote className="italic leading-6 carousel__quote">
+                <p className="quicksand pb-8">"{quote}"</p>
                 <cite>
-                  <span className="block not-italic opensans">{name}</span>
-                  <span className="block quicksand mb-8">{citation}</span>
+                  <span className="block not-italic opensans text-custom-titleBrown">
+                    {name}
+                  </span>
+                  <span className="block quicksand">{citation}</span>
                 </cite>
-                <p className="quicksand">"{quote}"</p>
               </blockquote>
             </li>
           );

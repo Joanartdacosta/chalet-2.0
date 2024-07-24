@@ -1,6 +1,6 @@
 export default function FlipCard(props) {
   return (
-    <div className="perspective-1000 w-60 h-80 group">
+    <div className="perspective-1000 w-60 h-64 group">
       <div className="relative w-full h-full transition-transform duration-700 preserve-3d rotate-card">
         <div className="absolute w-full h-full bg-white flex flex-col items-center justify-center text-center border border-neutral-200 rounded-3xl hidden-backface">
           <div className="p-8">
