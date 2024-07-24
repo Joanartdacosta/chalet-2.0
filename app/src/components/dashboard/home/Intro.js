@@ -5,7 +5,7 @@ export default function Intro() {
         <h2 className="text-xl opensans pt-20 pb-10 text-2xl">
           Cada projeto é o início de uma nova história!
         </h2>
-        <div className="">
+        <div>
           <p className="pb-20 quicksand">
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles

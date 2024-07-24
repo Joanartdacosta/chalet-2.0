@@ -5,15 +5,14 @@ import Step from "@/components/dashboard/services/Step";
 export default function Modal(props) {
   return (
     <div>
-      <div className="flex">
-        <div className="bg-[#E9DCCF] w-1">
-          <hr />
+      <p className="quicksand text-xl text-custom-mediumBrown font-semibold">
+        MAIS INFORMACOES
+      </p>
+      <div className="flex p-10 justify-center">
+        <div className="text-center">
+          <p className="text-9xl mr-10 text-custom-lightBrown playfair">1</p>
         </div>
         <div>
-          <p className="font-semibold items-center ml-10 mt-4 quicksand text-xl text-custom-mediumBrown tracking-widest ">
-            MAIS INFORMACOES
-          </p>
-
           <div className="ml-20">
             <div className="max-w-5xl m-auto">
               {props.step1 || props.step2 || props.step3 ? (
