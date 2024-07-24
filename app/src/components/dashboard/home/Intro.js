@@ -1,11 +1,11 @@
-export default function Quote() {
+export default function Intro() {
   return (
-    <div className="flex-wrap m-auto bg-[#efe4d9]">
+    <div className="flex-wrap m-auto bg-[#F5EFE8] p-10">
       <div className="max-w-4xl m-auto text-center">
-        <h2 className="italic text-xl text-custom-darkBrown pt-20 pb-10 poppins">
+        <h2 className="text-xl opensans pt-20 pb-10 text-2xl">
           Cada projeto é o início de uma nova história!
         </h2>
-        <div className="">
+        <div>
           <p className="pb-20 quicksand">
             O Chalet - Design de Interiores nasce com a finalidade de trazer
             ideias e soluções aos espaços dos seus clientes, quer sejam eles
