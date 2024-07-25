@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import { SkipBack, SkipForward } from "lucide-react";
 
 export default function MultiCarousel(props) {
   const GALLERY = [];
@@ -19,10 +20,6 @@ export default function MultiCarousel(props) {
 
     return () => clearInterval(interval);
   }, []);
-
-  const moveToSlide = (index) => {
-    setCurrentSlide(index);
-  };
 
   const prevSlide = () => {
     setCurrentSlide((prevSlide) =>
@@ -53,13 +50,13 @@ export default function MultiCarousel(props) {
           className="multi-carousel-control prev-slide"
           onClick={prevSlide}
         >
-          Prev
+          <SkipBack />
         </button>
         <button
           className="multi-carousel-control next-slide"
           onClick={nextSlide}
         >
-          Next
+          <SkipForward />
         </button>
       </div>
     </div>
