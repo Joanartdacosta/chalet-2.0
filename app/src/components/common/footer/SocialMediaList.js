@@ -1,4 +1,4 @@
-import SOCIALS from "./socials";
+import SOCIALS from "@/lists/socials";
 export default function SocialMediaList() {
   return (
     <div className="flex justify-center">
