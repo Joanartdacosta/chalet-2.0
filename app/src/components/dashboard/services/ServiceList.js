@@ -33,6 +33,7 @@ export default function ServicesList(props) {
               imgURL={service.imgURL}
               width={props.width}
               height={props.height}
+              isTextFirst={index % 2 === 0}
             />
           ))}
         </ul>
