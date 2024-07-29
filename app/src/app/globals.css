@@ -93,6 +93,8 @@
 .hover-scale:hover {
   transition-duration: 0.8s;
   transform: scale(2.5);
+}
+
 .carousel__item {
   transition: transform 0.2s;
 }

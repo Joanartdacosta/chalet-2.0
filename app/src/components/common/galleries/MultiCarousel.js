@@ -20,10 +20,6 @@ export default function MultiCarousel(props) {
     return () => clearInterval(interval);
   }, []);
 
-  const moveToSlide = (index) => {
-    setCurrentSlide(index);
-  };
-
   const prevSlide = () => {
     setCurrentSlide((prevSlide) =>
       prevSlide === 0 ? GALLERY.length - 3 : prevSlide - 1
