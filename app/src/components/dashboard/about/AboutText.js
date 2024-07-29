@@ -2,7 +2,7 @@ import HighlightedText from "@/components/dashboard/about/HighlightedText";
 import ImageWithText from "./ImageWithText";
 import ImageWithTextReverse from "./ImageWithTextReverse";
 
-export default function AboutDesigner() {
+export default function AboutText() {
   return (
     <div className="quicksand p-20">
       <div className="mb-20">

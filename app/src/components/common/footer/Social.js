@@ -1,4 +1,4 @@
-import SOCIALS from "./socials";
+import SOCIALS from "@/lists/socials";
 
 export default function Social() {
   return (

@@ -83,6 +83,33 @@
   transform: rotateY(180deg);
 }
 
+.masonry {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-rows: repeat(auto-fill);
+  grid-template-columns: repeat(auto-fill, minmax(14.3rem, 3fr));
+}
+
+.hover-scale:hover {
+  transition-duration: 0.8s;
+  transform: scale(2.5);
+.carousel__item {
+  transition: transform 0.2s;
+}
+.carousel__item.active {
+  transform: translateX(0);
+}
+.carousel__item.left {
+  transform: translateX(-110%);
+}
+.carousel__item.right {
+  transform: translateX(110%);
+}
+
+.carousel__dot.active {
+  background-color: #b7997b;
+}
+
 .multi-carousel-container {
   width: 100%;
   margin: 0 auto;

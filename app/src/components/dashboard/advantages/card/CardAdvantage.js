@@ -4,7 +4,7 @@ export default function CardAdvantage(props) {
       className="align-center border border-neutral-200 no-underline p-8 rounded-3xl text-center w-60
     "
     >
-      <div className="">
+      <div>
         <img className=" m-auto w-10" src={props.imgURL} alt={props.alt} />
       </div>
 
