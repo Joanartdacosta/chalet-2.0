@@ -9,64 +9,59 @@ export default function Modal(props) {
         MAIS INFORMACOES
       </p>
       <div className="flex p-10 justify-center">
-        <div className="text-center">
-          <p className="text-9xl mr-10 text-custom-lightBrown playfair">1</p>
-        </div>
         <div>
-          <div className="ml-20">
-            <div className="max-w-5xl m-auto">
-              {props.step1 || props.step2 || props.step3 ? (
-                <div className="flex items-center text-start pb-4">
-                  <Number step={"1"} />
+          <div className="max-w-5xl m-auto">
+            {props.step1 || props.step2 || props.step3 ? (
+              <div className="flex items-center text-start pb-4">
+                <Number step={"1"} />
 
-                  <Step
-                    stepTitle={props.step1Title}
-                    stepDescription={props.step1}
-                  />
-                </div>
-              ) : (
-                "Nao existem detalhes"
-              )}
+                <Step
+                  stepTitle={props.step1Title}
+                  stepDescription={props.step1}
+                />
+              </div>
+            ) : (
+              "Nao existem detalhes"
+            )}
 
-              {props.step2 ? (
-                <div className="flex items-center text-start pb-4">
-                  <Number step={"2"} />
+            {props.step2 ? (
+              <div className="flex items-center text-start pb-4">
+                <Number step={"2"} />
 
-                  <Step
-                    stepTitle={props.step2Title}
-                    stepDescription={props.step2}
-                  />
-                </div>
-              ) : (
-                ""
-              )}
+                <Step
+                  stepTitle={props.step2Title}
+                  stepDescription={props.step2}
+                />
+              </div>
+            ) : (
+              ""
+            )}
 
-              {props.step3 ? (
-                <div className="flex items-center justify-center text-start pb-4">
-                  <Number step={"3"} />
+            {props.step3 ? (
+              <div className="flex items-center justify-center text-start pb-4">
+                <Number step={"3"} />
 
-                  <Step
-                    stepTitle={props.step3Title}
-                    stepDescription={props.step3}
-                  />
-                </div>
-              ) : (
-                ""
-              )}
+                <Step
+                  stepTitle={props.step3Title}
+                  stepDescription={props.step3}
+                />
+              </div>
+            ) : (
+              ""
+            )}
 
-              {props.step4Title ? (
-                <div className="flex items-center text-start pb-4">
-                  <Number step={"4"} />
+            {props.step4Title ? (
+              <div className="flex items-center text-start pb-4">
+                <Number step={"4"} />
 
-                  <Step
-                    stepTitle={props.step4Title}
-                    stepDescription={props.step4}
-                  />
-                </div>
-              ) : (
-                ""
-              )}
-            </div>
+                <Step
+                  stepTitle={props.step4Title}
+                  stepDescription={props.step4}
+                />
+              </div>
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </div>
