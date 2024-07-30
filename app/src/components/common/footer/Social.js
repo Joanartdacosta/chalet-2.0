@@ -1,4 +1,4 @@
-import SocialMediaList from "./SocialMediaList";
+import SocialMediaList from "@/components/common/footer/SocialMediaList";
 
 export default function Social() {
   return (
