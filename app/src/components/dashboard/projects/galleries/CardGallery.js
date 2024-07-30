@@ -1,4 +1,5 @@
 import React from "react";
+import PhotoGallery from "@/components/dashboard/projects/galleries/PhotoGallery";
 
 export default function CardGallery(props) {
   const GALLERY = [];
@@ -12,17 +13,14 @@ export default function CardGallery(props) {
       <p className="font-light opensans text-2xl text-center">
         {props.projectName}
       </p>
-      <p className="quicksand">{props.projectType}</p>
+      <p className="quicksand pb-10">{props.projectType}</p>
 
       <div className="masonry">
         {GALLERY.map((photo) => {
           return (
-            <img
-              className="cursor-pointer hover-scale media-image-gallery"
-              src={photo.imgURL}
-              alt={props.alt}
-              key={photo.id}
-            />
+            <div>
+              <PhotoGallery src={photo.imgURL} alt={photo.alt} key={photo.id} />
+            </div>
           );
         })}
       </div>
