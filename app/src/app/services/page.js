@@ -1,6 +1,6 @@
 "use client";
 import ModalSearch from "@/components/dashboard/services/ModalSearch";
-import SERVICES from "@/components/lists/services";
+import SERVICES from "@/lists/services";
 import ServicesList from "@/components/dashboard/services/ServiceList";
 import { useState } from "react";
 

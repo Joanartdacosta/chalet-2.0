@@ -1,6 +1,6 @@
 "use client";
 import Button from "@/components/common/buttons/Button";
-import SERVICES from "@/components/lists/services";
+import SERVICES from "@/lists/services";
 import { useState } from "react";
 
 export default function ModalSearch(props) {
