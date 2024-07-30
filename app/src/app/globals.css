@@ -93,6 +93,8 @@
 .hover-scale:hover {
   transition-duration: 0.8s;
   transform: scale(2.5);
+}
+
 .carousel__item {
   transition: transform 0.2s;
 }
@@ -158,4 +160,27 @@
 
 .multi-carousel-control:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.close-btn {
+  background: rgba(255, 255, 255, 0.816);
+  z-index: 1010;
+}
+
+.photo-hover {
+  transition: transform 0.2s ease;
+}
+
+.photo-hover:hover {
+  transform: scale(1.05);
 }
