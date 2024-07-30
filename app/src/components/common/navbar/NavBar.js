@@ -1,4 +1,4 @@
-import NavLink from "../link/NavLink";
+import NavLink from "@/components/common/link/NavLink";
 import MobileNavBar from "@/components/common/navbar/MobileNavBar";
 
 export default function NavBar() {

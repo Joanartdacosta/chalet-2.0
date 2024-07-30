@@ -1,4 +1,4 @@
-import AdvantagesList from "./AdvantageList";
+import AdvantagesList from "@/components/dashboard/advantages/AdvantageList";
 
 export default function AdvantageQuoteAndList(props) {
   return (

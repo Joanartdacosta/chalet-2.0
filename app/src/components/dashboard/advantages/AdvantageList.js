@@ -1,4 +1,4 @@
-import FlipCard from "./card/FlipCard";
+import FlipCard from "@/components/dashboard/advantages/card/FlipCard";
 
 export default function AdvantagesList(props) {
   return (

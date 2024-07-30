@@ -1,6 +1,6 @@
 import HighlightedText from "@/components/dashboard/about/HighlightedText";
-import ImageWithText from "./ImageWithText";
-import ImageWithTextReverse from "./ImageWithTextReverse";
+import ImageWithText from "@/components/dashboard/about/ImageWithText";
+import ImageWithTextReverse from "@/components/dashboard/about/ImageWithTextReverse";
 
 export default function AboutText() {
   return (

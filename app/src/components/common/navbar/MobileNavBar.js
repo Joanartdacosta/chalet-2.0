@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import NavLink from "../link/NavLink";
+import NavLink from "@/components/common/link/NavLink";
 
 export default function MobileNavBar() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,4 +1,4 @@
-import MEZANINE from "./mezanine";
+import MEZANINE from "@/components/dashboard/projects/galleries/mezanine";
 
 const ALL = [...MEZANINE];
 
