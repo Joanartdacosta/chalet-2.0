@@ -11,7 +11,7 @@ export default function Modal(props) {
       <div className="flex p-10 justify-center">
         <div>
           <div className="max-w-5xl m-auto">
-            {props.step1 || props.step2 || props.step3 ? (
+            {props.step1 ? (
               <div className="flex items-center text-start pb-4">
                 <Number step={"1"} />
 
@@ -50,7 +50,7 @@ export default function Modal(props) {
               ""
             )}
 
-            {props.step4Title ? (
+            {props.step4 ? (
               <div className="flex items-center text-start pb-4">
                 <Number step={"4"} />
 
