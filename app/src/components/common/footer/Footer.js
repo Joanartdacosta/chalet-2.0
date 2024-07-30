@@ -1,5 +1,5 @@
-import CurrentDate from "./CurrentDate";
-import FooterInfo from "./FooterInfo";
+import CurrentDate from "@/components/common/footer/CurrentDate";
+import FooterInfo from "@/components/common/footer/FooterInfo";
 
 function Footer() {
   return (

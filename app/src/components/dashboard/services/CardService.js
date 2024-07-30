@@ -5,6 +5,7 @@ import Modal from "@/components/dashboard/services/Modal";
 
 export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isTextFirst, setIsTextFirst] = useState(true);
 
   const handleModal = () => {
     const newModalIsOpen = !modalIsOpen;
@@ -13,29 +14,54 @@ export default function CardService(props) {
   return (
     <div>
       <div className="p-20">
-        <div className="flex pb-10">
-          <div className="w-4/6 content-center">
-            <InfoCardService
-              type={props.type}
-              projectType={props.projectType}
-              description={props.description}
-              info1={props.detail1}
-              info2={props.detail2}
-              info3={props.detail3}
-              info4={props.detail4}
-              onClick={handleModal}
-              text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
-            />
+        {props.isTextFirst ? (
+          <div className="flex pb-10">
+            <div className="w-4/6 content-center">
+              <InfoCardService
+                type={props.type}
+                projectType={props.projectType}
+                description={props.description}
+                info1={props.detail1}
+                info2={props.detail2}
+                info3={props.detail3}
+                info4={props.detail4}
+                onClick={handleModal}
+                text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
+              />
+            </div>
+            <div className="w-2/6">
+              <img
+                alt={"service"}
+                src={props.imgURL}
+                className="object-cover h-full"
+              />
+            </div>
           </div>
+        ) : (
+          <div className="flex pb-10">
+            <div className="w-2/6">
+              <img
+                alt={"service"}
+                src={props.imgURL}
+                className="object-cover h-full pr-10"
+              />
+            </div>
+            <div className="w-4/6 content-center">
+              <InfoCardService
+                type={props.type}
+                projectType={props.projectType}
+                description={props.description}
+                info1={props.detail1}
+                info2={props.detail2}
+                info3={props.detail3}
+                info4={props.detail4}
+                onClick={handleModal}
+                text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
+              />
+            </div>
+          </div>
+        )}
 
-          <div className="w-2/6">
-            <img
-              alt={"service"}
-              src={props.imgURL}
-              className="object-cover h-full"
-            />
-          </div>
-        </div>
         {modalIsOpen && (
           <Modal
             onClick={handleModal}
