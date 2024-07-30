@@ -4,7 +4,7 @@ export default function InfoCardService(props) {
   return (
     <div>
       <div className="flex">
-        <div className="h-80 bg-[#E9DCCF] w-2">
+        <div className="h-32 bg-[#E9DCCF] w-2">
           <hr />
         </div>
 
