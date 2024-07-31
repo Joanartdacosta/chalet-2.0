@@ -22,7 +22,7 @@ export default function Carousel(props) {
   }, []);
 
   return (
-    <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-4">
+    <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-8">
       <p className="p-6 text-2xl opensans text-center">
         TESTEMUNHOS DE CLIENTES
       </p>
@@ -74,7 +74,7 @@ export default function Carousel(props) {
             }`}
           />
           <span
-            className={`block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+            className={`block border-2 border-solid border-gray-100 h-3 rounded-full w-3 carousel__dot${
               activeSlide === 5 ? " active" : ""
             }`}
           />
