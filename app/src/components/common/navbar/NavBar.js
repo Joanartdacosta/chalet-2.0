@@ -1,32 +1,26 @@
-import Link from "next/link";
+import NavLink from "@/components/common/link/NavLink";
+import MobileNavBar from "@/components/common/navbar/MobileNavBar";
 
 export default function NavBar() {
   return (
-    <div className="bg-[#b7997b] flex p-10 justify-between poppins">
+    <div>
       <div>
-        <Link className="text-xl text-black no-underline pr-10" href="/about">
-          SOBRE MIM
-        </Link>
-        <Link
-          className="text-xl text-black no-underline pr-10"
-          href="/contacts"
-        >
-          CONTACTOS
-        </Link>
-      </div>
-      <div>
-        <Link
-          className="text-xl text-black no-underline pr-10"
-          href="/services"
-        >
-          SERVIÇOS
-        </Link>
-        <Link
-          className="text-xl text-black no-underline pr-10"
-          href="/projects"
-        >
-          PROJETOS
-        </Link>
+        <div className="hidden lg:block">
+          <div className="bg-[#b7997b] flex p-10 justify-between poppins">
+            <div>
+              <NavLink label={"SOBRE MIM"} href={"/about"} />
+              <NavLink label={"CONTACTOS"} href={"/contacts"} />
+            </div>
+            <div>
+              <NavLink label={"SERVIÇOS"} href={"/services"} />
+              <NavLink label={"PROJETOS"} href={"/projects"} />
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:hidden z-20">
+          <MobileNavBar />
+        </div>
       </div>
     </div>
   );

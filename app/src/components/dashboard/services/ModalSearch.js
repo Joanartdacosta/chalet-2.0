@@ -33,7 +33,7 @@ export default function ModalSearch(props) {
           onChange={handleInputChange}
         />
         <div className="w-32">
-          <Button onClick={filterServices} />
+          <Button onClick={filterServices} label={"Procurar"} />
         </div>
       </div>
     </div>

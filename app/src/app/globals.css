@@ -162,11 +162,6 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-overlay {
-  background: rgba(0, 0, 0, 0.9);
-  z-index: 1000;
-}
-
 .modal-content {
   max-width: 90vw;
   max-height: 90vh;
@@ -183,4 +178,32 @@
 
 .photo-hover:hover {
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 770px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .flex-change {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-media {
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .menu-mobile {
+    display: none;
+  }
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+  }
 }

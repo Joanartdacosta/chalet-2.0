@@ -1,5 +1,5 @@
-import AdvantagesList from "./AdvantageList";
-import ADVANTAGES_LIST from "../../../lists/advantage_list";
+import AdvantagesList from "@/components/dashboard/advantages/AdvantageList";
+import ADVANTAGES_LIST from "@/lists/advantage_list";
 
 export default function AdvantageHome() {
   return (
