@@ -9,13 +9,13 @@ export default function Background() {
         <hr className="border border-black m-auto w-5/12" />
       </div>
 
-      <h1 className="pt-10 text-center text-xl tracking-wide">
+      <h2 className="pt-10 text-center text-xl tracking-wide">
         DESIGN de INTERIORE<span className="tracking-normal ">S</span>
-      </h1>
+      </h2>
       <p className="text-center pt-2">by</p>
-      <h1 className="italic pt-2 text-center tracking-widest ">
+      <h2 className="italic pt-2 text-center tracking-widest ">
         Mariana Batista Ramada<span className="tracking-normal">s</span>
-      </h1>
+      </h2>
     </div>
   );
 }

@@ -4,9 +4,11 @@ import TermsAndConditions from "@/components/dashboard/privacy/TermsAndCondition
 export default function Terms() {
   return (
     <div className="justify-center m-auto max-w-4xl pb-20">
-      <p className="opensans p-10 text-2xl text-center">
-        TERMOS DE USO E POLITICA DE PRIVACIDADE
-      </p>
+      <header>
+        <h2 className="opensans p-10 text-2xl text-center">
+          TERMOS DE USO E POLITICA DE PRIVACIDADE
+        </h2>
+      </header>
       <TermsAndConditions />
       <Privacy />
     </div>

@@ -12,7 +12,7 @@ export default function CardService(props) {
     setModalIsOpen(newModalIsOpen);
   };
   return (
-    <div>
+    <div key={props.id}>
       <div className="p-20">
         {props.isTextFirst ? (
           <div className="flex pb-10">

@@ -44,7 +44,11 @@ function Form() {
       </div>
 
       <div className="ml-8 w-1/2">
-        <p className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</p>
+        <header>
+          {" "}
+          <h3 className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</h3>
+        </header>
+
         <form
           className="w-full"
           id="freetour"
