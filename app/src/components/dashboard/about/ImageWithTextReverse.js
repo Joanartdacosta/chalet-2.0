@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ImageWithTextReverse(props) {
   return (
     <div>
-      <div className="flex">
+      <div className="flex flex-change">
         <div className="content-center">
           <p className="pb-10">{props.info1}</p>
           <p className="pb-10">{props.info2}</p>
@@ -13,7 +13,7 @@ export default function ImageWithTextReverse(props) {
         </div>
 
         <Image
-          className="border border-2 border-[#E9DCCF] justify-center ml-10 object-fit p-8"
+          className="border border-2 border-[#E9DCCF] justify-center ml-10 object-fit p-8 img-media"
           src={props.image}
           width={400}
           height={500}
