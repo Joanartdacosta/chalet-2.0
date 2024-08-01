@@ -5,7 +5,7 @@ export default function ImageWithTextReverse(props) {
   return (
     <div>
       <div className="flex flex-change">
-        <div className="content-center">
+        <div>
           <p className="pb-10">{props.info1}</p>
           <p className="pb-10">{props.info2}</p>
           <HighlightedText info={props.quote} />
