@@ -49,9 +49,7 @@ export default function TermsAndConditions() {
           possibilidade de tais danos.
         </p>
 
-        <h3 className="font-semibold pb-2 pt-2 text-custom-titleBrown">
-          Alterações aos Termos
-        </h3>
+        <h3 className="font-semibold pb-2 pt-2">Alterações aos Termos</h3>
         <p>
           Reservamo-nos o direito de modificar estes termos e condições a
           qualquer momento. Quaisquer alterações serão publicadas nesta página.

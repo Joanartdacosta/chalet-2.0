@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function ImageWithText(props) {
   return (
     <div>
-      <div className="flex">
+      <div className="flex flex-change">
         <Image
-          className="border border-2 border-[#E9DCCF] justify-center mr-10 object-fit p-8"
+          className="border border-2 border-[#E9DCCF] justify-center mr-10 object-fit p-8 img-media"
           src={props.image}
           width={400}
           height={500}

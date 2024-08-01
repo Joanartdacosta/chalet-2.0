@@ -15,8 +15,7 @@ export default function Banner() {
         </p>
       </section>
       <section className="w-96 m-auto">
-        {" "}
-        <Button label={"Pedir orçamento"} />
+        <Button label={"Pedir orçamento"} href={"/contacts"} />
       </section>
     </div>
   );

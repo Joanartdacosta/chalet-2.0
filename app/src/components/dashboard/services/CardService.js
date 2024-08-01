@@ -2,6 +2,7 @@
 import InfoCardService from "@/components/dashboard/services/InfoCardService";
 import { useState } from "react";
 import Modal from "@/components/dashboard/services/Modal";
+import Image from "next/image";
 
 export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -12,53 +13,61 @@ export default function CardService(props) {
     setModalIsOpen(newModalIsOpen);
   };
   return (
-    <div key={props.id}>
-      <div className="p-20">
+    <div className="pb-10 pt-10">
+      <div className="m-auto">
         {props.isTextFirst ? (
-          <div className="flex pb-10">
-            <div className="w-4/6 content-center">
-              <InfoCardService
-                type={props.type}
-                projectType={props.projectType}
-                description={props.description}
-                info1={props.detail1}
-                info2={props.detail2}
-                info3={props.detail3}
-                info4={props.detail4}
-                onClick={handleModal}
-                text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
-              />
-            </div>
-            <div className="w-2/6">
-              <img
+          <div className="flex mb-10">
+            <InfoCardService
+              type={props.type}
+              projectType={props.projectType}
+              description={props.description}
+              info1={props.detail1}
+              info2={props.detail2}
+              info3={props.detail3}
+              info4={props.detail4}
+              onClick={handleModal}
+              text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
+            />
+
+            <div
+              className="relative"
+              style={{ width: "700px", height: "auto" }}
+            >
+              <Image
                 alt={"decor_service"}
                 src={props.imgURL}
-                className="object-cover h-full"
+                layout="fill"
+                objectFit="cover"
+                className="pl-10"
               />
             </div>
           </div>
         ) : (
-          <div className="flex pb-10">
-            <div className="w-2/6">
-              <img
-                alt={"design_service"}
+          <div className="flex mb-10">
+            <div
+              className="relative"
+              style={{ width: "800px", height: "auto" }}
+            >
+              <Image
+                alt="service"
                 src={props.imgURL}
-                className="object-cover h-full pr-10"
+                layout="fill"
+                objectFit="cover"
+                className="pr-10"
               />
             </div>
-            <div className="w-4/6 content-center">
-              <InfoCardService
-                type={props.type}
-                projectType={props.projectType}
-                description={props.description}
-                info1={props.detail1}
-                info2={props.detail2}
-                info3={props.detail3}
-                info4={props.detail4}
-                onClick={handleModal}
-                text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
-              />
-            </div>
+
+            <InfoCardService
+              type={props.type}
+              projectType={props.projectType}
+              description={props.description}
+              info1={props.detail1}
+              info2={props.detail2}
+              info3={props.detail3}
+              info4={props.detail4}
+              onClick={handleModal}
+              text={modalIsOpen ? "MOSTRAR MENOS" : "VER MAIS"}
+            />
           </div>
         )}
 

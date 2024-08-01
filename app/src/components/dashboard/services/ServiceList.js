@@ -8,7 +8,13 @@ export default function ServicesList(props) {
   }
 
   return (
-    <div className="mt-4">
+    <div className="m-6 m-auto pt-10">
+      {NEW_SERVICES.length < 5 && (
+        <p className="quicksand text-lg p-10 text-center">
+          {NEW_SERVICES.length} resultados encontrados.
+        </p>
+      )}
+
       {NEW_SERVICES.length > 0 ? (
         <ul>
           {NEW_SERVICES.map((service, index) => (
@@ -38,7 +44,9 @@ export default function ServicesList(props) {
           ))}
         </ul>
       ) : (
-        <p>Nenhum serviço encontrado</p>
+        <p className="quicksand text-xl p-20 text-center">
+          Nao foi encontrado nenhum registo para as palavras chave indicadas.
+        </p>
       )}
     </div>
   );

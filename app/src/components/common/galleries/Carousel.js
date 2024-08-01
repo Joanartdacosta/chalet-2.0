@@ -22,7 +22,7 @@ export default function Carousel(props) {
   }, []);
 
   return (
-    <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-4">
+    <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-8">
       <header>
         {" "}
         <h3 className="p-6 text-2xl opensans text-center">{props.title}</h3>

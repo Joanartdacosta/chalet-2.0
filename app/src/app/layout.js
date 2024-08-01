@@ -1,5 +1,5 @@
 import "./globals.css";
-import NavBar from "../components/common/navbar/NavBar";
+import NavBar from "@/components/common/navbar/NavBar";
 import Footer from "@/components/common/footer/Footer";
 import {
   poppins,
