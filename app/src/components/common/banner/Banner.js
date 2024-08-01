@@ -11,7 +11,7 @@ export default function Banner() {
         o orcamento.
       </p>
       <div className="w-96 m-auto">
-        <Button label={"Pedir orçamento"} />
+        <Button label={"Pedir orçamento"} href={"/contacts"} />
       </div>
     </div>
   );
