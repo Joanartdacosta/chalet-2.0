@@ -8,7 +8,7 @@ export default function Modal(props) {
       <p className="quicksand text-xl text-custom-mediumBrown font-semibold">
         MAIS INFORMACOES
       </p>
-      <div className="flex p-10 justify-center">
+      <div className="flex m-10">
         <div>
           <div className="max-w-5xl m-auto">
             {props.step1 ? (

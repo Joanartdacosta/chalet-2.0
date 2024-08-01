@@ -8,7 +8,7 @@ export default function ServicesList(props) {
   }
 
   return (
-    <div className="mt-4 mb-4">
+    <div className="m-6 m-auto pt-10">
       {NEW_SERVICES.length < 5 && (
         <p className="quicksand text-lg p-10 text-center">
           {NEW_SERVICES.length} resultados encontrados.
