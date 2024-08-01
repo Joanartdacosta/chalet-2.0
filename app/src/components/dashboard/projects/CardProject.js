@@ -11,7 +11,7 @@ export default function CardProject(props) {
           fill
           priority={false}
           src="https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png"
-          alt="image"
+          alt="chalet_mezanine"
         />
         <div className="pt-20 pb-20 relative text-center">
           <h3 className="pb-5 ropasans text-5xl text-white tracking-wider">

@@ -31,7 +31,7 @@ export default function CardService(props) {
             </div>
             <div className="w-2/6">
               <img
-                alt={"service"}
+                alt={"decor_service"}
                 src={props.imgURL}
                 className="object-cover h-full"
               />
@@ -41,7 +41,7 @@ export default function CardService(props) {
           <div className="flex pb-10">
             <div className="w-2/6">
               <img
-                alt={"service"}
+                alt={"design_service"}
                 src={props.imgURL}
                 className="object-cover h-full pr-10"
               />

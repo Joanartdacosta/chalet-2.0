@@ -29,7 +29,7 @@ export default function ServicesList(props) {
               step2={service.step2}
               step3={service.step3}
               step4={service.step4}
-              alt={"service"}
+              alt={"chalet_services"}
               imgURL={service.imgURL}
               width={props.width}
               height={props.height}
