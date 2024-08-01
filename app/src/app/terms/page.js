@@ -5,9 +5,9 @@ export default function Terms() {
   return (
     <div className="justify-center m-auto max-w-4xl pb-20">
       <header>
-        <h2 className="opensans p-10 text-2xl text-center">
+        <h3 className="opensans p-10 text-2xl text-center">
           TERMOS DE USO E POLITICA DE PRIVACIDADE
-        </h2>
+        </h3>
       </header>
       <TermsAndConditions />
       <Privacy />

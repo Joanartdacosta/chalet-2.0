@@ -25,9 +25,9 @@ export default function Carousel(props) {
     <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-4">
       <header>
         {" "}
-        <h1 className="p-6 text-2xl opensans text-center">
+        <h3 className="p-6 text-2xl opensans text-center">
           TESTEMUNHOS DE CLIENTES
-        </h1>
+        </h3>
       </header>
 
       <section>

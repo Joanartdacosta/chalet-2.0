@@ -11,7 +11,7 @@ export default function Services() {
     <div className="m-auto max-w-6xl">
       <header>
         {" "}
-        <h2 className="opensans p-10 text-2xl text-center">OS MEUS SERVICOS</h2>
+        <h3 className="opensans p-10 text-2xl text-center">OS MEUS SERVICOS</h3>
       </header>
 
       <ModalSearch setServices={setServices} />

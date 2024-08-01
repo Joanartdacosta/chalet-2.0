@@ -4,9 +4,9 @@ export default function Banner() {
   return (
     <div className="bg-[#efe4d9] p-16 text-center">
       <header>
-        <h2 className="p-2 poppins text-2xl text-custom-titleBrown">
+        <h3 className="p-2 poppins text-2xl text-custom-titleBrown">
           Planeie um projeto de design de interiores comigo
-        </h2>
+        </h3>
       </header>
       <section>
         <p className="p-6 text-base quicksand">

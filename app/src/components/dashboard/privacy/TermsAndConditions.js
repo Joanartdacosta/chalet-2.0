@@ -2,9 +2,9 @@ export default function TermsAndConditions() {
   return (
     <div className="justify-center m-auto max-w-5xl quicksand">
       <header>
-        <h2 className="opensans p-10 text-2xl text-center text-custom-titleBrown">
+        <h3 className="opensans p-10 text-2xl text-center text-custom-titleBrown">
           Termos e Condições
-        </h2>
+        </h3>
       </header>
       <section>
         <p>

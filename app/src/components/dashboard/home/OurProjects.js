@@ -6,9 +6,9 @@ export default function OurProjects() {
     <div className="pt-20 pb-40">
       <header>
         {" "}
-        <h2 className="opensans p-10 text-2xl text-center">
+        <h3 className="opensans p-10 text-2xl text-center">
           OS NOSSOS PROJETOS
-        </h2>
+        </h3>
       </header>
       <section>
         <MultiCarousel slidesData={PROJECTS_GALLERY} />
