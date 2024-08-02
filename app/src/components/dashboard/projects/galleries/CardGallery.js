@@ -18,8 +18,8 @@ export default function CardGallery(props) {
       <div className="masonry">
         {GALLERY.map((photo) => {
           return (
-            <div>
-              <PhotoGallery src={photo.imgURL} alt={photo.alt} key={photo.id} />
+            <div key={photo.id}>
+              <PhotoGallery src={photo.imgURL} alt={photo.alt} />
             </div>
           );
         })}
