@@ -189,18 +189,6 @@
   .menu-desktop {
     display: none;
   }
-
-  .flex-change {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img-media {
-    align-items: center;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
 }
 
 @media screen and (min-width: 770px) {
