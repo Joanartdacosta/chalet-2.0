@@ -37,6 +37,7 @@ export default function CardService(props) {
                 alt={props.alt}
                 src={props.imgURL}
                 layout="fill"
+                unoptimized
                 objectFit="cover"
                 priority={true}
                 className="pl-10"
@@ -53,6 +54,7 @@ export default function CardService(props) {
                 alt="service"
                 src={props.imgURL}
                 layout="fill"
+                unoptimized
                 objectFit="cover"
                 priority={true}
                 className="pr-10"

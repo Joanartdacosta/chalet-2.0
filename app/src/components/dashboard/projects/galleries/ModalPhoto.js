@@ -6,7 +6,7 @@ export default function ModalPhoto(props) {
       onClick={props.onClose}
     >
       <div
-        className="items-center relative flex justify-center modal-content w-11/12 h-lvh box-border"
+        className="items-center relative flex justify-center modal-content lg:w-11/12 h-lvh box-border p-2 m-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <button

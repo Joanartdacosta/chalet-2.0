@@ -8,7 +8,7 @@ export default function CardProject(props) {
         <Image
           className="absolute mix-blend-overlay object-cover"
           unoptimized
-          fill
+          layout="fill"
           priority={false}
           src="https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png"
           alt="image"
