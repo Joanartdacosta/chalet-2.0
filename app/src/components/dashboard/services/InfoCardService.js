@@ -2,7 +2,7 @@ import Button from "@/components/common/buttons/Button";
 
 export default function InfoCardService(props) {
   return (
-    <div className="w-[46rem]">
+    <div className="lg:w-[46rem]">
       <div className="flex">
         <div className="h-32 bg-[#E9DCCF] w-2">
           <hr />
@@ -31,7 +31,7 @@ export default function InfoCardService(props) {
         </div>
       </div>
       <div>
-        <Button className="w-96" label={props.text} onClick={props.onClick} />
+        <Button className="w-full" label={props.text} onClick={props.onClick} />
       </div>
     </div>
   );

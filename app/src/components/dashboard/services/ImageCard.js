@@ -6,7 +6,7 @@ export default function ImageCard(props) {
       <Image
         alt={props.alt}
         src={props.image}
-        priority={true}
+        priority={false}
         width={500}
         height={400}
         className="h-auto w-auto"

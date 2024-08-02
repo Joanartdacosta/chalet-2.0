@@ -4,7 +4,7 @@ import Step from "@/components/dashboard/services/Step";
 
 export default function Modal(props) {
   return (
-    <div>
+    <div className="lg:w-full">
       <p className="quicksand text-xl text-custom-mediumBrown font-semibold">
         MAIS INFORMACOES
       </p>

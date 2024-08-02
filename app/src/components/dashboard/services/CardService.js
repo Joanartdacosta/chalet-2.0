@@ -13,7 +13,7 @@ export default function CardService(props) {
     setModalIsOpen(newModalIsOpen);
   };
   return (
-    <div className="pb-10 pt-10">
+    <div className="p-8">
       <div className="m-auto">
         {props.isTextFirst ? (
           <div className="flex mb-10">
@@ -30,7 +30,7 @@ export default function CardService(props) {
             />
 
             <div
-              className="relative"
+              className="relative hidden"
               style={{ width: "700px", height: "auto" }}
             >
               <Image
@@ -45,7 +45,7 @@ export default function CardService(props) {
         ) : (
           <div className="flex mb-10">
             <div
-              className="relative"
+              className="relative hidden"
               style={{ width: "800px", height: "auto" }}
             >
               <Image
@@ -53,7 +53,7 @@ export default function CardService(props) {
                 src={props.imgURL}
                 layout="fill"
                 objectFit="cover"
-                className="pr-10"
+                className="lg:pr-10"
               />
             </div>
 

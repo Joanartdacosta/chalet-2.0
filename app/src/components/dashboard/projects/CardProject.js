@@ -17,7 +17,7 @@ export default function CardProject(props) {
           <p className="pb-5 ropasans text-5xl text-white tracking-wider">
             {props.projectName}
           </p>
-          <div className="m-auto w-72">
+          <div className="m-auto lg:w-72 w-[8rem]">
             <Button href={"/projects/1"} label={"VER GALERIA"} />
           </div>
         </div>

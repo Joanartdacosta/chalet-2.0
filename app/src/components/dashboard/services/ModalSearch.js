@@ -23,10 +23,10 @@ export default function ModalSearch(props) {
   }
 
   return (
-    <div className="flex gap-1 m-auto text-center lg:w-96">
+    <div className="flex gap-1 m-auto text-center lg:w-96 ">
       <div className="flex items-center m-auto">
         <input
-          className="text-sm poppins border-neutral-300 w-36"
+          className="text-sm poppins border-neutral-300 w-36 lg:w-[20rem]"
           type="text"
           placeholder="Procure pelo servico que pretende"
           value={searchTerm}
