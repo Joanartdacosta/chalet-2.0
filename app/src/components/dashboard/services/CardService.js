@@ -2,7 +2,7 @@
 import InfoCardService from "@/components/dashboard/services/InfoCardService";
 import { useState } from "react";
 import Modal from "@/components/dashboard/services/Modal";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function CardService(props) {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -30,7 +30,7 @@ export default function CardService(props) {
             />
 
             <div
-              className="relative hidden"
+              className="relative"
               style={{ width: "700px", height: "auto" }}
             >
               <Image
@@ -38,6 +38,7 @@ export default function CardService(props) {
                 src={props.imgURL}
                 layout="fill"
                 objectFit="cover"
+                priority={true}
                 className="pl-10"
               />
             </div>
@@ -45,7 +46,7 @@ export default function CardService(props) {
         ) : (
           <div className="flex mb-10">
             <div
-              className="relative hidden"
+              className="relative pr-10"
               style={{ width: "800px", height: "auto" }}
             >
               <Image
@@ -53,7 +54,8 @@ export default function CardService(props) {
                 src={props.imgURL}
                 layout="fill"
                 objectFit="cover"
-                className="lg:pr-10"
+                priority={true}
+                className="pr-10"
               />
             </div>
 

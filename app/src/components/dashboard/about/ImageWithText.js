@@ -1,5 +1,5 @@
 import HighlightedText from "@/components/dashboard/about/HighlightedText";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function ImageWithText(props) {
   return (
