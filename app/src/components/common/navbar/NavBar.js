@@ -1,6 +1,5 @@
 import NavLink from "@/components/common/link/NavLink";
 import MobileNavBar from "@/components/common/navbar/MobileNavBar";
-import Link from "next/link";
 import Image from "next/image";
 
 export default function NavBar() {
@@ -19,7 +18,6 @@ export default function NavBar() {
                 <Image
                   src="https://chalet-webapp.s3.amazonaws.com/icons/logo-navbar.png"
                   alt="chalet_logo"
-                  layout="intrinsic"
                   width={160}
                   height={50}
                   priority={true}
