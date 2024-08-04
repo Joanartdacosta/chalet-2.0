@@ -1,6 +1,7 @@
 import NavLink from "@/components/common/link/NavLink";
 import MobileNavBar from "@/components/common/navbar/MobileNavBar";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
