@@ -9,7 +9,7 @@ export default function Services() {
 
   return (
     <div className="lg:max-w-6xl m-auto">
-      <p className="opensans p-16 text-2xl text-center">OS MEUS SERVICOS</p>
+      <p className="opensans p-24 text-2xl text-center">OS MEUS SERVICOS</p>
       <ModalSearch setServices={setServices} />
       <ServicesList services={services} />
     </div>
