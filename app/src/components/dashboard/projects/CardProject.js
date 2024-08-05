@@ -7,7 +7,6 @@ export default function CardProject(props) {
       <div className="bg-gradient-to-tr from-neutral-700 to-neutral-800 content-center h-96 max-w-5xl relative">
         <Image
           className="absolute mix-blend-overlay object-cover"
-          unoptimized
           layout="fill"
           priority={false}
           src="https://chalet-webapp.s3.amazonaws.com/homepage/MezzanineHall-background.png"
