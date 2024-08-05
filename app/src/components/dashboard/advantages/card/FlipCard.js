@@ -4,7 +4,7 @@ export default function FlipCard(props) {
       <div className="relative w-full h-full transition-transform duration-700 preserve-3d rotate-card">
         <div className="absolute w-full h-full bg-white flex flex-col items-center justify-center text-center border border-neutral-200 rounded-3xl hidden-backface">
           <div className="p-8">
-            <p className="mt-6 pb-2 text-center text-lg quicksand">
+            <p className="mt-6 pb-2 text-center text-xl quicksand">
               {props.title}
             </p>
           </div>
