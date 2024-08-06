@@ -20,7 +20,7 @@ function Form() {
       <div className="lg:w-1/2">
         <div className="items-center">
           <Image
-            alt="Chalet"
+            alt="contact_chalet"
             src="https://images.unsplash.com/photo-1523865236457-3ae3358a4eaa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             width={600}
             height={300}
@@ -44,7 +44,11 @@ function Form() {
       </div>
 
       <div className="lg:ml-8 lg:w-1/2">
-        <p className="text-2xl opensans pb-10 pl-4">PECA O SEU ORCAMENTO</p>
+        <header>
+          {" "}
+          <h3 className="text-2xl opensans pb-10 pl-4">PECA O SEU ORCAMENTO</h3>
+        </header>
+
         <form
           className="w-full"
           id="freetour"

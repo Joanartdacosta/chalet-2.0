@@ -40,7 +40,7 @@ export default function MultiCarousel(props) {
         style={{ transform: `translateX(-${currentSlide * (100 / 3)}%)` }}
       >
         {GALLERY.map((slide) => (
-          <div key={slide.id} className="multi-carousel-slide ">
+          <div key={slide.id} className="multi-carousel-slide">
             <img src={slide.imgURL} alt={`Slide ${slide.id}`} />
           </div>
         ))}
