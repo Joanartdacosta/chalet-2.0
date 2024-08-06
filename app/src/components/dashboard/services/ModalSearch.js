@@ -23,16 +23,16 @@ export default function ModalSearch(props) {
   }
 
   return (
-    <div className="flex gap-1 m-auto text-center w-96 ">
-      <div className="flex items-center">
+    <div className="flex gap-1 m-auto text-center lg:w-96 ">
+      <div className="flex items-center m-auto">
         <input
-          className="text-sm poppins border-neutral-300"
+          className="text-sm poppins border-neutral-300 w-36 lg:w-[20rem]"
           type="text"
           placeholder="Procure pelo servico que pretende"
           value={searchTerm}
           onChange={handleInputChange}
         />
-        <div className="w-32 ml-1 ">
+        <div className="lg:w-32 ml-1 w-18">
           <Button onClick={filterServices} label={"Procurar"} />
         </div>
       </div>

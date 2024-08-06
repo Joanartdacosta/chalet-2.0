@@ -109,7 +109,7 @@
 }
 
 .carousel__dot.active {
-  background-color: #b7997b;
+  background-color: #d4d4d8;
 }
 
 .multi-carousel-container {
@@ -188,18 +188,6 @@
 @media screen and (max-width: 770px) {
   .menu-desktop {
     display: none;
-  }
-
-  .flex-change {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img-media {
-    align-items: center;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
   }
 }
 

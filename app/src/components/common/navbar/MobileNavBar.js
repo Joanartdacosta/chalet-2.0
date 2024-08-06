@@ -1,5 +1,8 @@
 "use client";
 import { useState } from "react";
+import { AlignJustify } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import NavLink from "@/components/common/link/NavLink";
 
 export default function MobileNavBar() {
@@ -11,9 +14,19 @@ export default function MobileNavBar() {
 
   return (
     <div>
-      <div className="bg-[#b7997b] p-4 justify-between poppins">
+      <div className="bg-[#b7997b] poppins flex justify-between p-2">
+        <Link href="/" className="cursor-pointer">
+          <Image
+            src="https://chalet-webapp.s3.amazonaws.com/icons/logo-navbar.png"
+            alt="chalet_logo"
+            width={100}
+            height={100}
+            priority={true}
+          />
+        </Link>
+
         <button onClick={toggleMenu}>
-          <p className="text-lg"> MENU</p>
+          <AlignJustify />
         </button>
       </div>
 

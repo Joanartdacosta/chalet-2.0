@@ -8,10 +8,10 @@ export default function Services() {
   const [services, setServices] = useState(SERVICES);
 
   return (
-    <div className="m-auto max-w-6xl">
+    <div className="lg:max-w-6xl m-auto">
       <header>
         {" "}
-        <h3 className="opensans p-10 text-2xl text-center">OS MEUS SERVICOS</h3>
+        <h3 className="opensans p-24 text-2xl text-center">OS MEUS SERVICOS</h3>
       </header>
 
       <ModalSearch setServices={setServices} />
