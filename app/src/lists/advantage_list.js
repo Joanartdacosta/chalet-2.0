@@ -1,14 +1,14 @@
 const ADVANTAGES_LIST = [
   {
     id: "1",
-    alt: "time",
+    alt: "save_time",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/v2.0/calendar-check-2.svg",
     title: "Poupe tempo",
     description: "Evite perdas de tempo e dinheiro desnecessárias.",
   },
   {
     id: "2",
-    alt: "money",
+    alt: "save_money",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/v2.0/coins.svg",
     title: "Poupe dinheiro",
     description:
@@ -16,7 +16,7 @@ const ADVANTAGES_LIST = [
   },
   {
     id: "3",
-    alt: "follow",
+    alt: "help",
     imgURL: "https://chalet-webapp.s3.amazonaws.com/v2.0/hand-heart.svg",
     title: "Obtenha ajuda e acompanhamento",
     description: "Espaço funcional, bonito, bem planeado e otimizado.",

@@ -10,7 +10,7 @@ export default function CardAdvantage(props) {
 
       <div>
         {" "}
-        <p className="poppins mt-6 pb-2 text-center text-lg ">{props.title}</p>
+        <p className=" mt-6 pb-2 poppins text-center text-lg">{props.title}</p>
         <p className="text-xs text-gray-400 quicksand">{props.description}</p>
       </div>
     </div>

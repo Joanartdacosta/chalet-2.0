@@ -5,7 +5,9 @@ function Footer() {
   return (
     <div className="bg-[#efe4d9] text-center">
       <FooterInfo />
-      <CurrentDate />
+      <footer>
+        <CurrentDate />
+      </footer>
     </div>
   );
 }
