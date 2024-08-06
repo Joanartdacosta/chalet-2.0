@@ -9,7 +9,11 @@ export default function Services() {
 
   return (
     <div className="m-auto max-w-6xl">
-      <p className="opensans p-16 text-2xl text-center">OS MEUS SERVICOS</p>
+      <header>
+        {" "}
+        <h3 className="opensans p-10 text-2xl text-center">OS MEUS SERVICOS</h3>
+      </header>
+
       <ModalSearch setServices={setServices} />
       <ServicesList services={services} />
     </div>

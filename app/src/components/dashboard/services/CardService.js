@@ -34,7 +34,7 @@ export default function CardService(props) {
               style={{ width: "700px", height: "auto" }}
             >
               <Image
-                alt={props.alt}
+                alt={"decor_service"}
                 src={props.imgURL}
                 layout="fill"
                 objectFit="cover"
