@@ -14,7 +14,7 @@ export default function Banner() {
           envio o orcamento.
         </p>
       </section>
-      <section className="w-96 m-auto">
+      <section className="lg:w-96 m-auto w-full">
         <Button label={"Pedir orçamento"} href={"/contacts"} />
       </section>
     </div>

@@ -56,27 +56,27 @@ export default function Carousel(props) {
           })}
           <li className="gap-px grid grid-cols-5 row-start-2 justify-self-center">
             <span
-              className={` block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
                 activeSlide === 1 ? " active" : ""
               }`}
             />
             <span
-              className={` block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
                 activeSlide === 2 ? " active" : ""
               }`}
             />
             <span
-              className={`block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
                 activeSlide === 3 ? " active" : ""
               }`}
             />
             <span
-              className={`block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
                 activeSlide === 4 ? " active" : ""
               }`}
             />
             <span
-              className={`block border-2 border-solid border-stone-300 h-3 rounded-full w-3 carousel__dot${
+              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
                 activeSlide === 5 ? " active" : ""
               }`}
             />

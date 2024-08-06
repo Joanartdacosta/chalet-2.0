@@ -2,7 +2,7 @@ export default function Background() {
   return (
     <div className="background-chalet bg-cover h-screen m-auto  opensans">
       <div className="w-full">
-        <h1 className="pt-40 text-9xl text-center tracking-widest ">
+        <h1 className="pt-40 text-7xl lg:text-9xl text-center tracking-widest">
           CHALE
           <span className="tracking-normal">T</span>
         </h1>

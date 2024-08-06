@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useState } from "react";
 
 function Form() {
@@ -16,8 +16,8 @@ function Form() {
   }
 
   return (
-    <div className="quicksand flex justify-center pb-20 pt-20">
-      <div className="w-1/2">
+    <div className="quicksand lg:flex justify-center pb-20 pt-20">
+      <div className="lg:w-1/2">
         <div className="items-center">
           <Image
             alt="contact_chalet"
@@ -43,10 +43,10 @@ function Form() {
         </div>
       </div>
 
-      <div className="ml-8 w-1/2">
+      <div className="lg:ml-8 lg:w-1/2">
         <header>
           {" "}
-          <h3 className="text-2xl opensans pb-10">PECA O SEU ORCAMENTO</h3>
+          <h3 className="text-2xl opensans pb-10 pl-4">PECA O SEU ORCAMENTO</h3>
         </header>
 
         <form
