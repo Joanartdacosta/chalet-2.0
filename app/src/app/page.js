@@ -12,7 +12,7 @@ export default function Home() {
         <Background />
         <Intro />
         <OurProjects />
-        <Carousel list={REVIEWS} />
+        <Carousel list={REVIEWS} title={"TESTEMUNHOS DE CLIENTES"} />
         <AdvantageHome />
       </div>
     </main>

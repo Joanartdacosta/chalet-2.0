@@ -1,5 +1,5 @@
-import CardGallery from "./galleries/CardGallery";
-import MEZANINE from "./galleries/mezanine";
+import CardGallery from "@/components/dashboard/projects/galleries/CardGallery";
+import MEZANINE from "@/components/dashboard/projects/galleries/mezanine";
 
 export default function ProjectsGallery() {
   return (

@@ -109,7 +109,7 @@
 }
 
 .carousel__dot.active {
-  background-color: #b7997b;
+  background-color: #d4d4d8;
 }
 
 .multi-carousel-container {
@@ -160,4 +160,43 @@
 
 .multi-carousel-control:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.close-btn {
+  background: rgba(255, 255, 255, 0.816);
+  z-index: 1010;
+}
+
+.photo-hover {
+  transition: transform 0.2s ease;
+}
+
+.photo-hover:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 770px) {
+  .menu-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .menu-mobile {
+    display: none;
+  }
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+  }
 }

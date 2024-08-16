@@ -5,7 +5,7 @@ const SERVICES = [
     projectType: "Design de Interiores",
     href: "#design",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1460.JPG",
+      "https://chalet-webapp.s3.amazonaws.com/sections/bilal-mansuri-mGI8b4KFoFM-unsplash.jpg",
     description:
       "Projeto para um espaço novo (em fase de construção) ou a remodelar. Inclui:",
     detail1:
@@ -34,7 +34,7 @@ const SERVICES = [
     projectType: "Decoração de Interiores",
     href: "#decor",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1148.JPG",
+      "https://chalet-webapp.s3.amazonaws.com/sections/alona-gross--1ZOkqWiI98-unsplash.jpg",
     description:
       "Projeto focado numa melhoria estética e funcional do espaço, com reduzida ou sem necessidade de execução de obra. Inclui:",
     detail1:
@@ -61,7 +61,7 @@ const SERVICES = [
     projectType: "Decoração de Interiores",
     href: "#online",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/moodboards/Moodboard+cozinha1.png",
+      "https://chalet-webapp.s3.amazonaws.com/sections/hannah-busing-f0iHba5bSlQ-unsplash.jpg",
     description:
       "Melhoria ao nível funcional e/ou estético de um ou mais espaços da sua casa, não incluindo assim um projeto técnico detalhado. Não estão incluídos projetos de cozinhas e instalações sanitárias.",
     detail1:
@@ -84,7 +84,7 @@ const SERVICES = [
     projectType: "Decoração de Interiores",
     href: "#complementar",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_1283.JPG",
+      "https://chalet-webapp.s3.amazonaws.com/sections/stephanie-harvey-aK53f8eAzck-unsplash.jpg",
     description:
       "Projeto com o objetivo de dar um toque especial ao espaço. Projetos em que existe a maioria da mobília (ex. sofá, mesa, cadeiras) mas é necessário um suporte na escolha ou conjugação de objetos decorativos.",
     detail1:
@@ -105,7 +105,7 @@ const SERVICES = [
     projectType: "Staging",
     href: "#staging",
     imgURL:
-      "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4135.JPG",
+      "https://chalet-webapp.s3.amazonaws.com/sections/minh-pham-OtXADkUh3-I-unsplash.jpg",
     description:
       "Destinado a imóveis para vender ou arrendar (longa duração ou temporário). Este serviço permite uma valorização do seu imóvel.",
     detail1: "Imóvel mais atractivo",
