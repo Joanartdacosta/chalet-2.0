@@ -10,6 +10,13 @@ export default function ModalSearch(props) {
     setSearchTerm(event.target.value);
   }
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      filterServices();
+    }
+  };
+
   function filterServices() {
     const LOWER_CASE_SEARCH = searchTerm.toLowerCase();
 
@@ -31,6 +38,7 @@ export default function ModalSearch(props) {
           placeholder="Procure pelo servico que pretende"
           value={searchTerm}
           onChange={handleInputChange}
+          onKeyDown={handleKeyDown}
         />
         <div className="lg:w-32 ml-1 w-18">
           <Button onClick={filterServices} label={"Procurar"} />
