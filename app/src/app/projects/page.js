@@ -1,4 +1,5 @@
 import CardProject from "@/components/dashboard/projects/CardProject";
+import PROJECTS from "@/app/data/projects.json";
 
 export default function Projects() {
   return (
@@ -7,8 +8,15 @@ export default function Projects() {
         {" "}
         <h3 className="pt-24 text-2xl opensans text-center">PROJETOS</h3>
       </header>
-
-      <CardProject projectName={"PROJECTO OEIRAS"} />
+      {PROJECTS.map((project) => (
+        <CardProject
+          imgURL={project.imgURL}
+          href={project.href}
+          projectName={project.projectName}
+          gallery={project.gallery}
+          key={project.id}
+        />
+      ))}
     </div>
   );
 }
