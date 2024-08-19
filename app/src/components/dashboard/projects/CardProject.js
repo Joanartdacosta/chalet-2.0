@@ -18,7 +18,7 @@ export default function CardProject(props) {
             {props.projectName}
           </h3>
           <div className="m-auto lg:w-72 w-[8rem]">
-            <Button href={`/projects/${props.slug}`} label={"VER GALERIA"} />
+            <Button href={`/projects/${props.href}`} label={"VER GALERIA"} />
           </div>
         </div>
       </div>
