@@ -1,0 +1,131 @@
+[
+  {
+    "id": "100",
+    "typeService": "Projeto",
+    "projectType": "Projeto de Design e Remodelação de Interiores",
+    "projectName": "PROJETO MEZANINE",
+    "imgURL": "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall1.png",
+    "gallery": [
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall6.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Hall7.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine+-+Kitchen5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-+living-room5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-0.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-11.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-12.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine-wc-13.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/mezanine/Mezanine4.png"
+    ]
+  },
+  {
+    "id": "200",
+    "typeService": "Projeto",
+    "projectType": "Projeto de Design e Remodelação de Interiores",
+    "projectName": "PROJETO MORADIA 26",
+    "imgURL": "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto+crian%C3%A7a1.png",
+
+    "gallery": [
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/closet1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/closet2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/hall2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/hall1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto+crian%C3%A7a1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto+crian%C3%A7a2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/quarto3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/cozinha1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/sala2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/sala3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/sala4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/sala5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/sala6.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/wc1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+26/wc2.png"
+    ]
+  },
+  {
+    "id": "300",
+    "typeService": "Projeto",
+    "projectType": "Projeto de Design e Remodelação de Interiores",
+    "projectName": "PROJETO MORADIA 10",
+    "imgURL": "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/closet1.png",
+    "gallery": [
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/closet1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/closet2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/closet3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/cozinha1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/cozinha2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/cozinha3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/cozinha4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/cozinha5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/quarto1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/quarto2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/quarto1 (1).png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/quarto2 (1).png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala5.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala6.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala8.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala9.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala10.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala11.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala12.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/sala13.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/wc1.1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/wcsuite1.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/home-staging/LOTE+10/wcsuite2.png"
+    ]
+  },
+  {
+    "id": "400",
+    "typeService": "Projeto",
+    "projectType": "Projeto de Design e Remodelação de Interiores",
+    "projectName": "PROJETO MORADIA TORRES VEDRAS",
+    "imgURL": "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV1.jpg",
+    "gallery": [
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV1.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV2.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV3.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV4.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV5.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV6.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV7.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV8.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV9.jpg",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/moradiaTV/moradia-TV10.jpg"
+    ]
+  },
+  {
+    "id": "500",
+
+    "typeService": "Projeto",
+    "projectType": "Projeto de Espacos Comerciais",
+    "projectName": "PROJETO COMERCIAL",
+    "imgURL": "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant3.png",
+    "gallery": [
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant2.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant3.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant4.png",
+      "https://chalet-webapp.s3.amazonaws.com/Servicos/comerciais/restaurant5.png"
+    ]
+  }
+]
