@@ -20,7 +20,7 @@ export default function AboutText() {
             "Em 2017, o projeto de remodelação da minha primeira casa,despertou de novo em mim o fascínio pela decoração."
           }
           image={
-            "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_0970+(2).JPG"
+            "https://chalet-webapp.s3.amazonaws.com/designer-photos/MarianaBatista.png"
           }
           description={"designer"}
         />
@@ -41,7 +41,7 @@ export default function AboutText() {
             "A formação foi uma experiência enriquecedora, de muito trabalho e aprendizagem, onde conheci pessoas incríveis que me ajudaram a concretizar este meu sonho!"
           }
           image={
-            "https://chalet-webapp.s3.amazonaws.com/designer-photos/IMG_4131.JPG"
+            "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           }
           description={"designer"}
         />
