@@ -11,7 +11,7 @@ export default function Projects() {
       {PROJECTS.map((project) => (
         <CardProject
           imgURL={project.imgURL}
-          href={project.href}
+          href={project.id}
           projectName={project.projectName}
           gallery={project.gallery}
           key={project.id}
