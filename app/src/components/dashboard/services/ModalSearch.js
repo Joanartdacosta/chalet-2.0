@@ -14,6 +14,8 @@ export default function ModalSearch(props) {
     if (event.key === "Enter") {
       event.preventDefault();
       filterServices();
+    } else if (searchTerm.length >= 3) {
+      filterServices();
     }
   };
 
