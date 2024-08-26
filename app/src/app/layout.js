@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           className={`${openSans.variable} ${poppins.variable} ${quicksand.variable} ${ropaSans.variable} ${playfairDisplay.variable}`}
         >
           <NavBar />
-          <section> {children}</section>
+          <section className="bg-[#F7F6F3]"> {children}</section>
           <footer>
             <Footer />
           </footer>
