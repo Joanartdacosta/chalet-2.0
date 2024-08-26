@@ -28,21 +28,28 @@ describe("Form Component", () => {
     expect(button.textContent).toBe("Enviado");
   });
 
-  test("updates input values correctly", () => {
-    render(<Form />);
+  test.each([
+    { placeholder: "Nome", value: "Joana", result: "Joana" },
+    {
+      placeholder: "Email",
+      value: "joana@example.com",
+      result: "joana@example.com",
+    },
+    {
+      placeholder: "Enter your message...",
+      value: "Hello Joana!",
+      result: "Hello Joana!",
+    },
+  ])(
+    "updates input with placeholder '%s' correctly",
+    ({ placeholder, value, result }) => {
+      render(<Form />);
 
-    const nameInput = screen.getByPlaceholderText("Nome");
-    const emailInput = screen.getByPlaceholderText("Email");
-    const messageInput = screen.getByPlaceholderText("Enter your message...");
+      const inputElement = screen.getByPlaceholderText(placeholder);
 
-    fireEvent.change(nameInput, { target: { value: "Joana" } });
-    fireEvent.change(emailInput, {
-      target: { value: "joana@example.com" },
-    });
-    fireEvent.change(messageInput, { target: { value: "Hello Joana!" } });
+      fireEvent.change(inputElement, { target: { value } });
 
-    expect(nameInput.value).toBe("Joana");
-    expect(emailInput.value).toBe("joana@example.com");
-    expect(messageInput.value).toBe("Hello Joana!");
-  });
+      expect(inputElement.value).toBe(result);
+    }
+  );
 });
