@@ -3,7 +3,7 @@ import FooterInfo from "@/components/common/footer/FooterInfo";
 
 function Footer() {
   return (
-    <div className="bg-[#efe4d9] text-center">
+    <div className="bg-[#efe4d9] text-center lg:text-left">
       <FooterInfo />
       <footer>
         <CurrentDate />

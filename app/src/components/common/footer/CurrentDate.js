@@ -2,7 +2,7 @@ export default function CurrentDate() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div>
+    <div className="text-center">
       <hr />
       <div className="p-6 text-custom-darkBrown poppins">
         <p className="text-xs bold ">© CHALET - Mariana Batista Ramadas</p>
