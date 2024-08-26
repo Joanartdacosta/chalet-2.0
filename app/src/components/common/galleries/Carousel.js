@@ -17,9 +17,13 @@ export default function Carousel(props) {
 
     const intervalId = setInterval(() => {
       cycleReviews();
-    }, 10000);
+    }, 50000);
     return () => clearInterval(intervalId);
   }, []);
+
+  const handleDotClick = (index) => {
+    setActiveSlide(index);
+  };
 
   return (
     <div className="bg-[#F5EFE8] items-center h-full grid justify-center p-8">
@@ -31,7 +35,7 @@ export default function Carousel(props) {
       <section>
         <ul className="items-center grid grid-cols-1 grid-rows-1 auto-rows-auto gap-y-5  list-none max-w-2xl overflow-hidden carousel__list">
           {props.list.map((review, index) => {
-            const { citation, name, quote } = review;
+            const { name, quote } = review;
             const count = index + 1;
             return (
               <li
@@ -48,38 +52,21 @@ export default function Carousel(props) {
                     <span className="block not-italic opensans text-custom-titleBrown">
                       {name}
                     </span>
-                    <span className="block quicksand">{citation}</span>
                   </cite>
                 </blockquote>
               </li>
             );
           })}
           <li className="gap-px grid grid-cols-5 row-start-2 justify-self-center">
-            <span
-              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
-                activeSlide === 1 ? " active" : ""
-              }`}
-            />
-            <span
-              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
-                activeSlide === 2 ? " active" : ""
-              }`}
-            />
-            <span
-              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
-                activeSlide === 3 ? " active" : ""
-              }`}
-            />
-            <span
-              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
-                activeSlide === 4 ? " active" : ""
-              }`}
-            />
-            <span
-              className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
-                activeSlide === 5 ? " active" : ""
-              }`}
-            />
+            {[1, 2, 3, 4, 5].map((index) => (
+              <span
+                key={index}
+                className={`bg-white block border-2 border-solid border-slate-100 h-3 rounded-full w-3 carousel__dot${
+                  activeSlide === index ? " active" : ""
+                }`}
+                onClick={() => handleDotClick(index)}
+              />
+            ))}
           </li>
         </ul>
       </section>
