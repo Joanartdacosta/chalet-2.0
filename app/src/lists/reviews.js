@@ -1,33 +1,28 @@
 const REVIEWS = [
   {
-    name: "Jonathan D.",
-    citation: "Sale Closed in 2019",
+    name: "Sadeline S.",
     quote:
-      "Door.com has been great. I feel like I got to work with a specialist at each point in the process. Everyone was very professional and very helpful. Plus, I'm amazed at the flat-fee for the sale! Great way to save at closing. Door.com has been great. I feel like I got to work with a specialist at each point in the process. Everyone was very professional and very helpful. Plus, I'm amazed at the flat-fee for the sale! Great way to save at closing.",
+      "Quando se trabalha com o coração e se junta o talento e o bom gosto, os resultados só podem superar as expectativas! Obrigada Mariana pelo excelente trabalho, pelo cuidado, por cada detalhe pensado ao pormenor! Ficou ainda mais bonito do que imaginámos!",
   },
   {
-    name: "Peter C.",
-    citation: "Sale Closed in 2019",
+    name: "Joana P. e Francisco C.",
     quote:
-      "I have bought and sold ten homes. This has been the most rewarding experience of them all. True professionalism and insight as well as great customer service makes me a believer in the Door.com business model.",
+      "Quando decidimos pedir ajuda à Mariana, era apenas para uma parte da casa e acabámos por pedir mais. Nunca achei que fizesse tanta diferença ter uma ajuda de alguém especializado, sempre alinhada com os nossos gostos e considerando as dinâmicas de dia-a-dia dos espaços, comodidade e acessibilidade. Recomendo a 100% os seus serviços, fiquei muito impressionada com a rapidez e alinhamento.",
   },
   {
-    name: "Paulette H.",
-    citation: "Sale Closed in 2019",
+    name: "Maria G.",
     quote:
-      "The entire experience from onboarding to the sale of our home has been professional, expedited quickly, and I saved close to $14,000 in commissions. I will absolutely be using Door.com for the sale of my next property.",
+      "Quando contratámos a Mariana, já tínhamos comprado o mobiliário principal para a suite, contudo sentimos que precisávamos de ajuda para efetivamente decorar a divisão! Adorámos o projeto que a Mariana nos apresentou, totalmente dentro do estilo e cores que desejámos! Achamos também muito importante ela dar várias opções de escolha dentro do mesmo artigo! Iremos de certeza recomendar os seus serviços a amigos e familiares!.",
   },
   {
-    name: "Ryan W.",
-    citation: "Sale Closed in 2019",
+    name: "Gonçalo P.",
     quote:
-      "Service was excellent EVERY step of the process! No way to tell that Door.com provided a flat rate service by the way that they treated us and handled every step of the transactions.",
+      "Gostámos muito! Havia várias coisas que já tínhamos idealizado e acho que a Mariana conseguiu captar isso mesmo bem nas reuniões iniciais dos dois projetos. Depois passar essas ideias para um projeto visível e o trabalho todo de pesquisa foi fantástico!",
   },
   {
-    name: "Kevin R.",
-    citation: "Sale Closed in 2019",
+    name: "Cátia C",
     quote:
-      "Everyone we worked with was very responsive, professional and easy to work with. A great experience all around. I work in this industry too so my expectations are high. Great work by all.",
+      "O que achei bastante interessante no trabalho da Mariana é que ela captou muito rapidamente o nosso estilo e deu-nos flexibilidade para escolher dentro do estilo. Soluções simples, que fazem a diferença em orçamentos reduzidos. Na nossa situação, que temos uma casa arrendada, consigo perfeitamente ver que todas as peças que a Mariana propôs podem encaixar em outra casa no futuro. E isto tudo sem deixarmos de nos sentir em casa! É mesmo giro começar a ver os móveis e as peças a chegar (comprámos quase tudo online), encaixar as pecinhas conforme o plano, com as dimensões que ela especificou e ver que tudo encaixa e fica ainda melhor que no digital!",
   },
 ];
 
